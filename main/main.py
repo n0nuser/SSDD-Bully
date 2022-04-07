@@ -62,7 +62,9 @@ def llegada(dorsal: int):
 def resultados():
     message = ""
     for key, value in atletas.items():
-        message = str(message) + "Atleta " + str(key) + ": " + str(value) + " segundos.\n"
+        message = (
+            str(message) + "Atleta " + str(key) + ": " + str(value) + " segundos.\n"
+        )
     return message
 
 
