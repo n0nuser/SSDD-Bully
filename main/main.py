@@ -1,9 +1,11 @@
 import time
 import logging
 from flask import Flask
-from .models import Shot, Variables
+from .models import Proceso
+from aux_functions import generate_node_id
 
-numAtletas = 4
+misProcesos = []
+numProcesos = 4
 HOST = "127.0.0.1"
 PORT = 8080
 FICHERO = "resultados.log"
@@ -32,7 +34,7 @@ def reinicio():
 @api.route("/preparado")
 def preparado():
     numPreparados = variables.actualizar("preparados")
-    if numPreparados < numAtletas:
+    if numPreparados < numProcesos:
         pistoletazo.wait()
     else:
         pistoletazo.notify()
@@ -43,7 +45,7 @@ def preparado():
 def listo():
     global tiempoIni
     numListos = variables.actualizar("listos")
-    if numListos < numAtletas:
+    if numListos < numProcesos:
         pistoletazo.wait()
     else:
         pistoletazo.notify()
@@ -69,4 +71,9 @@ def resultados():
 
 
 def start():
+    global misProcesos
+    for i in range(numProcesos):
+        proceso = Proceso(generate_node_id())
+        misProcesos.append(proceso)
+        proceso.start()
     api.run(host=HOST, port=PORT)

@@ -1,7 +1,7 @@
 from threading import Thread, Condition, Lock
 from time import sleep
 import requests
-from random import uniform as rango_float
+from random import uniform as float_range
 from threading import Lock
 
 # numAtletas = 4
@@ -75,7 +75,7 @@ from threading import Lock
 #             f.write(self.dorsal + ": " + listo.text + "\n")
 
 #             """Espera un tiempo entre 9.56 y 11.76 segundos y lo imprime por pantalla."""
-#             sleep(rango_float(9.56, 11.76))
+#             sleep(float_range(9.56, 11.76))
 
 #             llegada = requests.get("http://" + HOST + ":" + str(PORT) + "/llegada/" + self.dorsal)
 #             print(llegada.text)
@@ -114,31 +114,62 @@ from threading import Lock
 
 
 class Proceso(Thread):
-    def __init__(self, id: int, coordinador: int, eleccion: dict, estado: bool = False):
+    def __init__(
+        self,
+        id: int,
+        eleccion: dict = {"acuerdo": 0, "eleccion_activa": 0, "eleccion_pasiva": 0},
+        coordinador: int = None,
+        gestor: bool = False,
+        estado: bool = True,
+    ):
         self.id = id
         self.coordinador = coordinador
+        self.gestor = gestor
         self.eleccion = eleccion
-        # {"acuerdo" = 0, "eleccion_activa" = 0, "eleccion_pasiva" = 0}
-        self.estado = estado
-        # True = arrancado, False = parado
+        self.estado = estado  # True = arrancado, False = parado
 
     def ok():
         print("")
 
-    def eleccion():
-        print("")
+    def eleccion(higher_nodes_array, node_id):
+        status_code_array = []
+        for each_port in higher_nodes_array:
+            url = "http://localhost:%s/proxy" % each_port
+            data = {"node_id": node_id}
+            post_response = requests.post(url, json=data)
+            status_code_array.append(post_response.status_code)
+        if 200 in status_code_array:
+            return 200
 
     def coordinador():
         print("")
 
-    def arrancar():
-        print("")
+    def arrancar(self):
+        self.estado = True
+        # hacer notify
 
-    def parar():
-        print("")
+    def parar(self):
+        self.estado = False
 
-    def computar():
-        print("")
+    def computar(self):
+        if self.estado == False:
+            return False
+        else:
+            # Cambiar por threading.timer()
+            sleep(float_range(0.1, 0.3))
+            return True
+
+    def run(self):
+        while True:
+            if self.estado == False:
+                # Hacer un Wait
+                pass
+            else:
+                # Cambiar por threading.timer()
+                sleep(float_range(0.5, 1))
+                if self.id == self.coordinador:
+                    if self.computar() == False:
+                        self.eleccion()
 
 
 class Gestor:
