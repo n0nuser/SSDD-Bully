@@ -3,6 +3,7 @@ from time import sleep
 import requests
 from random import uniform as float_range
 from threading import Lock
+from .main import idsDireccion, PORT, flagComputar, buzonComputar, buzonResponder
 
 # numAtletas = 4
 # HOST = "127.0.0.1"
@@ -117,7 +118,7 @@ class Proceso(Thread):
     def __init__(
         self,
         id: int,
-        eleccion: dict = {"acuerdo": 0, "eleccion_activa": 0, "eleccion_pasiva": 0},
+        eleccion: dict = {"acuerdo": 0, "eleccion_activa": 1, "eleccion_pasiva": 0},
         coordinador: int = None,
         gestor: bool = False,
         estado: bool = True,
@@ -159,17 +160,38 @@ class Proceso(Thread):
             sleep(float_range(0.1, 0.3))
             return True
 
+    def runProceso(self):
+        if self.estado == False:
+            # Hacer un Wait
+            pass
+        else:
+            # Cambiar por threading.timer()
+            sleep(float_range(0.5, 1))
+            if self.coordinador == None:
+                self.eleccion()
+            else:
+                if self.id != self.coordinador:
+                    ipCoordinador = idsDireccion[self.coordinador]
+                    peticion = requests.get(
+                        "http://"
+                        + ipCoordinador
+                        + ":"
+                        + str(PORT)
+                        + "/servicio/computar?id="
+                        + str(self.coordinador)
+                    )
+                    if peticion.status_code == 400:
+                        self.eleccion()
+
     def run(self):
         while True:
-            if self.estado == False:
-                # Hacer un Wait
-                pass
-            else:
-                # Cambiar por threading.timer()
-                sleep(float_range(0.5, 1))
-                if self.id == self.coordinador:
-                    if self.computar() == False:
-                        self.eleccion()
+            global buzonResponder
+            global buzonComputar
+            self.runProceso()
+
+            if self.id == self.coordinador and flagComputar:
+                buzonComputar = self.computar()
+                buzonResponder = True
 
 
 class Gestor:
