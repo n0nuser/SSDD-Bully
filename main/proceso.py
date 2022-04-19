@@ -1,6 +1,8 @@
 import sys
 import json
+import random
 import logging
+import requests
 import threading
 from flask import Flask
 from aux_functions import generate_node_id, read_config
@@ -30,14 +32,80 @@ class Proceso:
 ###############################################################################
 
 
-def proceso_run(id):
+###############################################################################
+# MANEJADORA WAIT Y NOTIFY
+###############################################################################
+class Handler:
+    """Clase manejadora de los hilos. Define las funciones para la gestión de la concurrencia y notificación a los demás hilos."""
+
+    def __init__(self):
+        """ """
+        self._cond = Condition(Lock())
+        self._flag = False
+
+    def is_set(self):
+        """Devuelve el valor de la flag.
+        Returns:
+            flag (bool): Condición de espera.
+        """
+        return self._flag
+
+    def wait(self, timeout=None):
+        """Si el flag es falso, espera a que sea notificado.
+        Args:
+            timeout (int, optional): Tiempo a esperar máximo. Por defecto es: None.
+        Returns:
+            flag (bool): Se devuelve si es verdadero (no está esperando).
+        """
+        self._cond.acquire()
+        try:
+            signaled = self._flag
+            if not signaled:
+                signaled = self._cond.wait(timeout)
+            return signaled
+        finally:
+            pass
+            self._cond.release()
+
+    def notify(self):
+        """Habilita la flag a verdadero y lo notifica. Dejando así los hilos que estuvieran bloqueados ejecutar sus funciones."""
+        self._cond.acquire()
+        try:
+            self._flag = True
+            self._cond.notify_all()
+        finally:
+            pass
+            self._cond.release()
+
+
+###############################################################################
+
+
+def nothing():  # Literally doing nothing
+    pass
+
+
+def proceso_run():
     # Este hace las peticiones a los demás procesos continuamente
-    print("")
+    while True:
+        if not proceso.estado:
+            handler.wait()
+        else:
+            segundos = random.randint(0.5, 1)
+            threading.Timer(segundos, nothing)
+            computar = requests.get(
+                f"http://{direcciones[proceso.coordinador]}/api/computar/"
+            )
+            if computar == False:
+                idsMayores = [i for i in idsDireccion.keys() if i > proceso.id]
+                for i in idsMayores:
+                    eleccion = requests.get(f"http://{direcciones[i]}/api/eleccion")
+                    print(eleccion.text)
 
 
 def main():
     FICHERO = "config.json"
-    global proceso, idsDireccion
+    global proceso, idsDireccion, handler
     # Puede dar problema al ser variables globales
     # por el hecho de que los demás hilos accedan
     # a la variable global de otro proceso
@@ -57,8 +125,9 @@ def main():
     idsDireccion = {}  # {id: direccion} -> {150: "192.168.1.15"}
 
     proceso = Proceso(id)
+    handler = Handler()
 
-    proceso_run = threading.Thread(target=proceso_run, args=(id)).start()
+    proceso_run = threading.Thread(target=proceso_run, args=(id, proceso)).start()
 
     try:
         # Este recibe las peticiones de los demás procesos
@@ -72,34 +141,40 @@ def main():
 ###############################################################################
 # ENDPOINTS
 ###############################################################################
-@api.route("/api/ok?id=<int:id>")
-def ok(id: int):
+@api.route("/api/ok/")
+def ok():
     print("")
 
 
-@api.route("/api/eleccion?id=<int:id>")
-def eleccion(id: int):
+@api.route("/api/eleccion/")
+def eleccion():
     print("")
 
 
-@api.route("/api/coordinador?id=<int:id>")
-def coordinador(id: int):
+@api.route("/api/coordinador/")
+def coordinador():
     print("")
 
 
-@api.route("/api/arrancar?id=<int:id>")
-def arrancar(id: int):
-    print("")
+@api.route("/api/arrancar/")
+def arrancar():
+    proceso.estado = True
+    handler.notify()
 
 
-@api.route("/api/parar?id=<int:id>")
-def parar(id: int):
-    print("")
+@api.route("/api/parar/")
+def parar():
+    proceso.estado = False
 
 
-@api.route("/api/computar?id=<int:id>")
-def computar(id: int):
-    print("")
+@api.route("/api/computar/")
+def computar():
+    if not proceso.estado:
+        return 400
+    else:
+        segundos = random.randint(0.1, 0.3)
+        threading.Timer(segundos, nothing)
+        return 200
 
 
 ###############################################################################
