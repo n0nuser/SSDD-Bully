@@ -9,12 +9,12 @@ server = "main.main:start"
 client = "main.client:start"
 
 [tool.poetry.dependencies]
-python = ">=3.5.3, <3.6"
+python = ">=3.10, <4"
 requests = "*"
-Flask = ">=1.1, <2"
+Flask = "*"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
+pytest = "*"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
