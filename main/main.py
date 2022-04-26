@@ -8,10 +8,10 @@ import os
 if __name__ == "__main__":
     FICHERO = "config.json"
     data = read_config(FICHERO)
-
-    for i in range(data["process_number"]):
+    process_number = data["process_number"]
+    for i in range(process_number):
         HOST = "127.0.0.1"
-        PORT = int("808" + str(i))
+        PORT = str(8080 + i)
         ID = generate_node_id()
 
         threading.Thread(target=main, args=(HOST, PORT, ID)).start()
