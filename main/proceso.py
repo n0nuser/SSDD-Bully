@@ -9,6 +9,9 @@ from random import uniform as randfloat
 from threading import Thread, Condition, Lock
 from aux_functions import generate_node_id, read_config
 
+Log_Format = "%(levelname)s %(asctime)s - %(message)s"
+logging.basicConfig(stream=sys.stdout, format=Log_Format, level=logging.WARNING)
+
 logger = logging.getLogger(__name__)
 api = Flask(__name__)
 
@@ -93,7 +96,7 @@ def proceso_run(miPuertoFlask):
         if not proceso.estado:
             handler.wait()
         else:
-            print("El numero de procesos es: " + str(process_number))
+            logging.error("El numero de procesos es: " + str(process_number))
             segundos = randfloat(0.5, 1)
             threading.Timer(segundos, nothing)
             idsDireccion[proceso.id] = ["localhost", miPuertoFlask]
@@ -101,13 +104,14 @@ def proceso_run(miPuertoFlask):
                 for port in range(process_number):
                     try:
                         puerto = 8080 + port
+                        logging.error(f"Puerto: {puerto}")
                         id = requests.get(
-                            f"http://{direccion}:{puerto}/api/id", timeout=1
+                            f"http://{direccion}:{puerto}/api/id/", timeout=1
                         ).text
-                        print(id)
+                        logging.error("ID: " + id)
                         idsDireccion[id] = [direccion, puerto]
                     except:
-                        print(
+                        logging.error(
                             "NO HACE LA PETICIÓN DE BUSCAR A "
                             + str(direccion)
                             + ":"
@@ -116,23 +120,28 @@ def proceso_run(miPuertoFlask):
                         pass
 
             if proceso.coordinador == None:
-                print(idsDireccion)
+                logging.error("Array direcciones:" + str(idsDireccion))
                 miPuerto = idsDireccion[proceso.id][1]
                 eleccion = requests.get(f"http://localhost:{miPuerto}/api/eleccion")
-                print(eleccion.text)
+                logging.error(
+                    "No hay coordinador. Respuesta eleccion: " + eleccion.text
+                )
 
-            ip_coordinador = idsDireccion[proceso.coordinador][0]
-            puerto_coordinador = idsDireccion[proceso.coordinador][1]
-            computar = requests.get(
-                f"http://{ip_coordinador}:{puerto_coordinador}/api/computar/"
-            ).text
-            if computar == "400":  # Si está en estado de espera
-                idsMayores = [i for i in idsDireccion.keys() if i > proceso.id]
-                for i in idsMayores:
-                    eleccion = requests.get(
-                        f"http://{direcciones[i]}/api/eleccion"
-                    ).text
-                    print(eleccion)
+            else:
+                ip_coordinador = idsDireccion[proceso.coordinador][0]
+                puerto_coordinador = idsDireccion[proceso.coordinador][1]
+                computar = requests.get(
+                    f"http://{ip_coordinador}:{puerto_coordinador}/api/computar/"
+                ).text
+                if computar == "400":  # Si está en estado de espera
+                    idsMayores = [i for i in idsDireccion.keys() if i > proceso.id]
+                    for i in idsMayores:
+                        eleccion = requests.get(
+                            f"http://{direcciones[i]}/api/eleccion"
+                        ).text
+                        logging.error(
+                            "Había coordinador. Respuesta eleccion: " + eleccion
+                        )
 
 
 def main(host, port, id):
@@ -151,7 +160,7 @@ def main(host, port, id):
             host = "127.0.0.1"
             port = 8080
             id = generate_node_id()
-    print(f"HOST: {host}\nPORT: {port}\nID: {id}")
+    logging.error(f"HOST: {host}\nPORT: {port}\nID: {id}")
 
     data = read_config(FICHERO)
     direcciones = data["ip_addresses"]
@@ -178,46 +187,64 @@ def main(host, port, id):
 ###############################################################################
 @api.route("/api/id/")
 def id():
+    # logging.error(f"{proceso.id} <- Coordinador: {proceso.coordinador}")
     return str(proceso.id)
 
 
-@api.route("/api/ok/")
-def ok():
-    print("No sabemos qué hacer con este")
+# @api.route("/api/ok/")
+# def ok():
+#     return "200"
 
 
 def eleccion():
+    logging.error(f"{proceso.id} <- Coordinador: {proceso.coordinador}")
     # inicio
-    idsMayores = [id for id in idsDireccion.keys() if id > proceso.id]
-    for id in idsMayores:
-        ip = idsDireccion[id][0]
-        port = idsDireccion[id][1]
-        # pj.eleccion() para todo pj con j>i
-        # esperar mensaje respuesta (timeout 1s)
-        eleccion = requests.get(f"http://{ip}:{port}/api/eleccion/", timeout=1).text
-        # if eleccion==200:
-        # esperamos en el endpoint coordinador el id del nuevo coordinador
-        # si en un periodo de 1 segundo, no nos ha llegado ese mensaje, empezamos nuevas elecciones
+    idsMayores = [id for id in idsDireccion.keys() if int(id) > proceso.id]
+    if len(idsMayores) > 0:
+        eleccion = []
+        for id in idsMayores:
+            ip = idsDireccion[id][0]
+            port = idsDireccion[id][1]
+            # Pregunto a todos los demás si están en estado de espera
+            eleccion.append(
+                requests.get(f"http://{ip}:{port}/api/eleccion/", timeout=1).text
+            )
+            # Si alguno me responde un 200
+            # esperamos en el endpoint coordinador el id del nuevo coordinador
+            # si en un periodo de 1 segundo, no nos ha llegado ese mensaje, empezamos nuevas elecciones
 
-    if eleccion == "400":
-        # si no recibe mensaje respuesta tras timeout
-        #     pi.coordinador ← i //se hace nuevo coordinador
+        # Si no existe un proceso con ID mayor que el mío ENCENDIDO
+        if "200" not in eleccion:
+            # Me autoproclamo coordinador
+            proceso.coordinador = proceso.id
+            for direccion in direcciones:
+                for port in range(process_number):
+                    # Y se lo digo a los demás procesos
+                    requests.get(
+                        f"http://{direccion}:{port}/api/coordinador/{proceso.id}"
+                    )
+    else:
+        # Si no hay ningún proceso con ID mayor que el mío
+        # Me autoproclamo coordinador
         proceso.coordinador = proceso.id
         for direccion in direcciones:
             for port in range(process_number):
-                #     pj.coordinador(i) para todo pj (j=1...numProcesos)
-                requests.get(f"http://{direccion}:{port}/api/coordinador/{proceso.id}")
+                print(f"\nPuerto: {port}\n")
+                # Y se lo digo a los demás procesos
+                requests.get(
+                    f"http://{direccion}:{8080 + port}/api/coordinador/{proceso.id}"
+                )
 
 
 @api.route("/api/eleccion/")
 def eleccionCandidato():
-    eleccion = threading.Thread(target=eleccion).start()
+    eleccionThread = threading.Thread(target=eleccion).start()
 
     # Responder a una petición de elección
     if proceso.estado:
-        return "200"
+        return "200"  # OK
     else:
-        return "400"
+        return "400"  # Apagado (wait) SUPUESTAMENTE
 
 
 @api.route("/api/coordinador/<int:id>")
@@ -226,17 +253,20 @@ def coordinador(id):
     #       pi.coordinador ← x
     #       fin
     proceso.coordinador = id
+    return "200"
 
 
 @api.route("/api/arrancar/")
 def arrancar():
     proceso.estado = True
     handler.notify()
+    return "200"
 
 
 @api.route("/api/parar/")
 def parar():
     proceso.estado = False
+    return "200"
 
 
 @api.route("/api/computar/")

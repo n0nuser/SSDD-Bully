@@ -1,4 +1,6 @@
 {
     "ip_addresses": ["127.0.0.1"],
-    "process_number": 2
+    "process_number": 2,
+    "min_id": 0,
+    "max_id": 9999
 }
