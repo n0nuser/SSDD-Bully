@@ -1,0 +1,39 @@
+ * Serving Flask app "proceso" (lazy loading)
+
+ ########### ENTRAMOS EN UNA ELECCION ###########
+
+
+ ########### idsMayores: [] ###########
+
+ * Environment: production
+INFO 2022-05-04 21:05:49,253 - No hay coordinador (http://localhost:8081/api/eleccion) -> Respuesta eleccion: 200
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+INFO 2022-05-04 21:05:49,264 -  * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+
+ ########### ENTRAMOS EN UNA ELECCION ###########
+
+
+ ########### idsMayores: [] ###########
+
+ * Serving Flask app "proceso" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+INFO 2022-05-04 21:05:49,305 -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO 2022-05-04 21:05:49,305 - No hay coordinador (http://localhost:8080/api/eleccion) -> Respuesta eleccion: 200
+ * Serving Flask app "proceso" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+INFO 2022-05-04 21:05:49,382 -  * Running on http://127.0.0.1:8082/ (Press CTRL+C to quit)
+
+ ########### ENTRAMOS EN UNA ELECCION ###########
+
+
+ ########### idsMayores: [] ###########
+
+INFO 2022-05-04 21:05:49,390 - No hay coordinador (http://localhost:8082/api/eleccion) -> Respuesta eleccion: 200
