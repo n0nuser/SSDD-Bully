@@ -1,3 +1,4 @@
+import itertools
 import sys
 import json
 import random
@@ -22,11 +23,13 @@ class Proceso:
     def __init__(
         self,
         id: int,
-        eleccion={"acuerdo": 0, "eleccion_activa": 1, "eleccion_pasiva": 0},
+        eleccion=None,
         coordinador: int = None,
         gestor: bool = False,
         estado: bool = True,
     ):
+        if eleccion is None:
+            eleccion = {"acuerdo": 0, "eleccion_activa": 1, "eleccion_pasiva": 0}
         self.id = id
         self.eleccion = eleccion
         self.coordinador = coordinador
@@ -64,12 +67,8 @@ class Handler:
         """
         self._cond.acquire()
         try:
-            signaled = self._flag
-            if not signaled:
-                signaled = self._cond.wait(timeout)
-            return signaled
+            return self._flag or self._cond.wait(timeout)
         finally:
-            pass
             self._cond.release()
 
     def notify(self):
@@ -79,7 +78,6 @@ class Handler:
             self._flag = True
             self._cond.notify_all()
         finally:
-            pass
             self._cond.release()
 
 
@@ -90,7 +88,7 @@ def nothing():  # Literally doing nothing
     pass
 
 
-def proceso_run(miPuertoFlask):
+def proceso_run(miPuertoFlask):  # sourcery skip: avoid-builtin-shadow
     # Este hace las peticiones a los demás procesos continuamente
     while True:
         if not proceso.estado:
@@ -110,16 +108,14 @@ def proceso_run(miPuertoFlask):
                         ).text
                         logging.error("ID: " + id)
                         idsDireccion[id] = [direccion, puerto]
-                    except:
+                    except Exception:
                         logging.error(
                             "NO HACE LA PETICIÓN DE BUSCAR A "
                             + str(direccion)
                             + ":"
                             + str(puerto)
                         )
-                        pass
-
-            if proceso.coordinador == None:
+            if proceso.coordinador is None:
                 logging.error("Array direcciones:" + str(idsDireccion))
                 miPuerto = idsDireccion[proceso.id][1]
                 eleccion = requests.get(f"http://localhost:{miPuerto}/api/eleccion")
@@ -144,7 +140,7 @@ def proceso_run(miPuertoFlask):
                         )
 
 
-def main(host, port, id):
+def main(host, port, id):  # sourcery skip: avoid-builtin-shadow
     FICHERO = "config.json"
     global proceso, idsDireccion, handler, direcciones, process_number
     # Puede dar problema al ser variables globales
@@ -153,8 +149,8 @@ def main(host, port, id):
 
     try:
         host = sys.argv[1]
-        port = sys.argv[2]
-        id = sys.argv[3]
+        port = int(sys.argv[2])
+        id = int(sys.argv[3])
     except IndexError:
         if not host or not port or not id:
             host = "127.0.0.1"
@@ -176,7 +172,7 @@ def main(host, port, id):
     try:
         # Este recibe las peticiones de los demás procesos
         api.run(host=host, port=port)
-    except:
+    except Exception:
         logging.critical("Error al iniciar el servidor.", exc_info=True)
 
     proceso_inicio.join()
@@ -200,7 +196,7 @@ def eleccion():
     logging.error(f"{proceso.id} <- Coordinador: {proceso.coordinador}")
     # inicio
     idsMayores = [id for id in idsDireccion.keys() if int(id) > proceso.id]
-    if len(idsMayores) > 0:
+    if idsMayores:
         eleccion = []
         for id in idsMayores:
             ip = idsDireccion[id][0]
@@ -217,23 +213,21 @@ def eleccion():
         if "200" not in eleccion:
             # Me autoproclamo coordinador
             proceso.coordinador = proceso.id
-            for direccion in direcciones:
-                for port in range(process_number):
-                    # Y se lo digo a los demás procesos
-                    requests.get(
-                        f"http://{direccion}:{port}/api/coordinador/{proceso.id}"
-                    )
+            for direccion, port in itertools.product(
+                direcciones, range(process_number)
+            ):
+                # Y se lo digo a los demás procesos
+                requests.get(f"http://{direccion}:{port}/api/coordinador/{proceso.id}")
     else:
         # Si no hay ningún proceso con ID mayor que el mío
         # Me autoproclamo coordinador
         proceso.coordinador = proceso.id
-        for direccion in direcciones:
-            for port in range(process_number):
-                print(f"\nPuerto: {port}\n")
-                # Y se lo digo a los demás procesos
-                requests.get(
-                    f"http://{direccion}:{8080 + port}/api/coordinador/{proceso.id}"
-                )
+        for direccion, port in itertools.product(direcciones, range(process_number)):
+            print(f"\nPuerto: {port}\n")
+            # Y se lo digo a los demás procesos
+            requests.get(
+                f"http://{direccion}:{8080 + port}/api/coordinador/{proceso.id}"
+            )
 
 
 @api.route("/api/eleccion/")
@@ -241,10 +235,7 @@ def eleccionCandidato():
     eleccionThread = threading.Thread(target=eleccion).start()
 
     # Responder a una petición de elección
-    if proceso.estado:
-        return "200"  # OK
-    else:
-        return "400"  # Apagado (wait) SUPUESTAMENTE
+    return "200" if proceso.estado else "400"
 
 
 @api.route("/api/coordinador/<int:id>")
@@ -273,10 +264,9 @@ def parar():
 def computar():
     if not proceso.estado:
         return "400"
-    else:
-        segundos = randfloat(0.1, 0.3)
-        threading.Timer(segundos, nothing)
-        return "200"
+    segundos = randfloat(0.1, 0.3)
+    threading.Timer(segundos, nothing)
+    return "200"
 
 
 ###############################################################################

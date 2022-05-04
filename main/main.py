@@ -9,8 +9,8 @@ if __name__ == "__main__":
     data = read_config(FICHERO)
     process_number = data["process_number"]
     processes = []
+    HOST = "127.0.0.1"
     for i in range(process_number):
-        HOST = "127.0.0.1"
         PORT = str(8080 + i)
         ID = generate_node_id()
         processes.append(threading.Thread(target=main, args=(HOST, PORT, ID)))
