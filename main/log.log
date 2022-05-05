@@ -1,39 +1,2948 @@
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
  * Serving Flask app "proceso" (lazy loading)
-
- ########### ENTRAMOS EN UNA ELECCION ###########
-
-
- ########### idsMayores: [] ###########
-
- * Environment: production
-INFO 2022-05-04 21:05:49,253 - No hay coordinador (http://localhost:8081/api/eleccion) -> Respuesta eleccion: 200
-   WARNING: This is a development server. Do not use it in a production deployment.
-   Use a production WSGI server instead.
- * Debug mode: off
-INFO 2022-05-04 21:05:49,264 -  * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
-
- ########### ENTRAMOS EN UNA ELECCION ###########
-
-
- ########### idsMayores: [] ###########
-
- * Serving Flask app "proceso" (lazy loading)
+DEBUG 2022-05-05 20:11:15,495 - Starting new HTTP connection (1): 127.0.0.1:8080
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,499 - Starting new HTTP connection (1): 127.0.0.1:8082
  * Environment: production
    WARNING: This is a development server. Do not use it in a production deployment.
    Use a production WSGI server instead.
  * Debug mode: off
-INFO 2022-05-04 21:05:49,305 -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
-INFO 2022-05-04 21:05:49,305 - No hay coordinador (http://localhost:8080/api/eleccion) -> Respuesta eleccion: 200
+INFO 2022-05-05 20:11:15,501 -  * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+DEBUG 2022-05-05 20:11:15,507 - 
+ ########### ENTRAMOS EN UNA ELECCION [1] ###########
+
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,511 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,511 - No hay coordinador (http://localhost:8081/api/eleccion) -> Respuesta eleccion: 200
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,515 - Starting new HTTP connection (1): 127.0.0.1:8080
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,518 - Starting new HTTP connection (1): 127.0.0.1:8082
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,521 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,522 - 
+ ########### 1 -> idsDireccion: {1: ['127.0.0.1', 8081]}
+
+DEBUG 2022-05-05 20:11:15,523 - 
+ ########### idsMayores [1]: [] ###########
+
+1 -> 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,523 - 
+ ########### ENTRAMOS EN UNA ELECCION [1] ###########
+
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,523 - No hay coordinador (http://localhost:8081/api/eleccion) -> Respuesta eleccion: 200
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,525 - Starting new HTTP connection (1): 127.0.0.1:8080
+No se ha podido conectar con 127.0.0.1:0
+1 -> 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,528 - Starting new HTTP connection (1): 127.0.0.1:8080
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,531 - Starting new HTTP connection (1): 127.0.0.1:8080
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,535 - Starting new HTTP connection (1): 127.0.0.1:8082
+No se ha podido conectar con 127.0.0.1:2
+DEBUG 2022-05-05 20:11:15,542 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,545 - 
+  ###### [1] Ya hay coordinador: 1 y en idsDireccion hay {1: ['127.0.0.1', 8081]} ######
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,539 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,550 - Starting new HTTP connection (1): 127.0.0.1:8080
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,551 - 
+ ########### 1 -> idsDireccion: {1: ['127.0.0.1', 8081]}
+
+DEBUG 2022-05-05 20:11:15,554 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,554 - 
+ ########### idsMayores [1]: [] ###########
+
+1 -> 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,558 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,558 - 
+  ###### [1] Ya hay coordinador: 1 y en idsDireccion hay {1: ['127.0.0.1', 8081]} ######
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,561 - Starting new HTTP connection (1): 127.0.0.1:8080
+No se ha podido conectar con 127.0.0.1:0
+1 -> 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,564 - Starting new HTTP connection (1): 127.0.0.1:8082
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+ * Serving Flask app "proceso" (lazy loading)
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,568 - Starting new HTTP connection (1): 127.0.0.1:8082
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+No se ha podido conectar con 127.0.0.1:2
+DEBUG 2022-05-05 20:11:15,569 - 
+  ###### [1] Ya hay coordinador: 1 y en idsDireccion hay {1: ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,573 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,576 -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,576 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,578 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,579 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:15,581 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,581 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+DEBUG 2022-05-05 20:11:15,582 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,583 - Starting new HTTP connection (1): 127.0.0.1:8082
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,584 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,585 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,586 - 
+  ###### [1] Ya hay coordinador: 1 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,588 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,588 - 
+ ########### ENTRAMOS EN UNA ELECCION [0] ###########
+
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,589 - No hay coordinador (http://localhost:8080/api/eleccion) -> Respuesta eleccion: 200
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,590 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,591 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,596 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,593 - Starting new HTTP connection (1): 127.0.0.1:8081
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,597 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,599 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,600 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,601 - 
+  ###### [1] Ya hay coordinador: 1 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+DEBUG 2022-05-05 20:11:15,601 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,602 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,604 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,606 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,605 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,607 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,608 - 
+ ########### 0 -> idsDireccion: {0: ['127.0.0.1', 8080], '1': ['127.0.0.1', 8081]}
+
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,611 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,611 - 
+ ########### idsMayores [0]: ['1'] ###########
+
+DEBUG 2022-05-05 20:11:15,613 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,614 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,615 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,616 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,617 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,617 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,618 - 
+ ########### ENTRAMOS EN UNA ELECCION [0] ###########
+
+DEBUG 2022-05-05 20:11:15,618 - 
+  ###### [1] Ya hay coordinador: 1 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,618 - No hay coordinador (http://localhost:8080/api/eleccion) -> Respuesta eleccion: 200
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,620 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,620 - Starting new HTTP connection (1): 127.0.0.1:8081
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
  * Serving Flask app "proceso" (lazy loading)
  * Environment: production
    WARNING: This is a development server. Do not use it in a production deployment.
    Use a production WSGI server instead.
  * Debug mode: off
-INFO 2022-05-04 21:05:49,382 -  * Running on http://127.0.0.1:8082/ (Press CTRL+C to quit)
+DEBUG 2022-05-05 20:11:15,622 - 
+ ########### ENTRAMOS EN UNA ELECCION [1] ###########
 
- ########### ENTRAMOS EN UNA ELECCION ###########
+INFO 2022-05-05 20:11:15,623 -  * Running on http://127.0.0.1:8082/ (Press CTRL+C to quit)
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,623 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/eleccion/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,623 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,625 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,625 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,625 - http://127.0.0.1:8081 "GET /api/eleccion/ HTTP/1.1" 200 3
+DEBUG 2022-05-05 20:11:15,626 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:15,627 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,628 - Starting new HTTP connection (1): 127.0.0.1:8080
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,628 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,629 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+Datos ELECCION: ['200']
+INFO 2022-05-05 20:11:15,629 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,629 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,630 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,630 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,631 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,633 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,630 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,633 - Starting new HTTP connection (1): 127.0.0.1:8082
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,635 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,635 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,634 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,636 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,639 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,640 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,640 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,641 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,642 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,642 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+DEBUG 2022-05-05 20:11:15,642 - 
+  ###### [1] Ya hay coordinador: 1 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,645 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,638 - Starting new HTTP connection (1): 127.0.0.1:8082
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,646 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,646 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,647 - 
+ ########### ENTRAMOS EN UNA ELECCION [2] ###########
 
+DEBUG 2022-05-05 20:11:15,648 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,648 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,649 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,649 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,647 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,647 - No hay coordinador (http://localhost:8082/api/eleccion) -> Respuesta eleccion: 200
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,650 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,650 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,651 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,651 - 
+ ########### ENTRAMOS EN UNA ELECCION [0] ###########
 
- ########### idsMayores: [] ###########
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,649 - Starting new HTTP connection (1): 127.0.0.1:8080
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,651 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,651 - No hay coordinador (http://localhost:8080/api/eleccion) -> Respuesta eleccion: 200
+DEBUG 2022-05-05 20:11:15,652 - Starting new HTTP connection (1): 127.0.0.1:8080
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,654 - 
+ ########### 1 -> idsDireccion: {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]}
 
-INFO 2022-05-04 21:05:49,390 - No hay coordinador (http://localhost:8082/api/eleccion) -> Respuesta eleccion: 200
+DEBUG 2022-05-05 20:11:15,656 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,655 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,656 - 
+ ########### idsMayores [1]: ['2'] ###########
+
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,654 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,657 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,657 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:15,658 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,658 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,658 - 
+ ########### 0 -> idsDireccion: {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]}
+
+DEBUG 2022-05-05 20:11:15,658 - 
+ ########### idsMayores [0]: ['2', '1'] ###########
+
+DEBUG 2022-05-05 20:11:15,659 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,660 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,661 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,661 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,661 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,662 - 
+ ########### ENTRAMOS EN UNA ELECCION [2] ###########
+
+INFO 2022-05-05 20:11:15,663 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,663 - 
+  ###### [1] Ya hay coordinador: 1 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,663 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/eleccion/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,662 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,664 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,665 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,665 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,665 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,666 - http://127.0.0.1:8082 "GET /api/eleccion/ HTTP/1.1" 200 3
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,666 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,666 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,665 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,666 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,668 - 
+ ########### ENTRAMOS EN UNA ELECCION [2] ###########
+
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,668 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/eleccion/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,669 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+DEBUG 2022-05-05 20:11:15,669 - Starting new HTTP connection (1): 127.0.0.1:8082
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,675 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,670 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,673 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,674 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,671 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,677 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,675 - Starting new HTTP connection (1): 127.0.0.1:8081
+Datos ELECCION: ['200']
+DEBUG 2022-05-05 20:11:15,678 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,679 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+DEBUG 2022-05-05 20:11:15,680 - Starting new HTTP connection (1): 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,681 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,681 - http://127.0.0.1:8082 "GET /api/eleccion/ HTTP/1.1" 200 3
+INFO 2022-05-05 20:11:15,682 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,680 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,685 - Starting new HTTP connection (1): 127.0.0.1:8081
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+INFO 2022-05-05 20:11:15,683 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,684 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,686 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:15,686 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,684 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,687 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,685 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+DEBUG 2022-05-05 20:11:15,687 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:15,688 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,688 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,688 - 
+ ########### 0 -> idsDireccion: {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]}
+
+DEBUG 2022-05-05 20:11:15,689 - 
+ ########### ENTRAMOS EN UNA ELECCION [0] ###########
+
+DEBUG 2022-05-05 20:11:15,689 - 
+ ########### ENTRAMOS EN UNA ELECCION [1] ###########
+
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,689 - No hay coordinador (http://localhost:8080/api/eleccion) -> Respuesta eleccion: 200
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+INFO 2022-05-05 20:11:15,687 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,689 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,690 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,690 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,693 - Starting new HTTP connection (1): 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,689 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/eleccion/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,689 - 
+ ########### idsMayores [0]: ['2', '1'] ###########
+
+DEBUG 2022-05-05 20:11:15,691 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,691 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,695 - Starting new HTTP connection (1): 127.0.0.1:8082
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,695 - Starting new HTTP connection (1): 127.0.0.1:8081
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,696 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,698 - 
+ ########### 2 -> idsDireccion: {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]}
+
+DEBUG 2022-05-05 20:11:15,698 - 
+ ########### idsMayores [2]: [] ###########
+
+DEBUG 2022-05-05 20:11:15,695 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,698 - http://127.0.0.1:8081 "GET /api/eleccion/ HTTP/1.1" 200 3
+2 -> 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,697 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+DEBUG 2022-05-05 20:11:15,695 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,700 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,696 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,700 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,702 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,702 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,703 - 
+  ###### [1] Ya hay coordinador: 1 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:15,705 - Starting new HTTP connection (1): 127.0.0.1:8080
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,697 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,706 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+INFO 2022-05-05 20:11:15,699 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,707 - 
+ ########### 2 -> idsDireccion: {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]}
+
+DEBUG 2022-05-05 20:11:15,707 - 
+ ########### idsMayores [2]: [] ###########
+
+DEBUG 2022-05-05 20:11:15,706 - Starting new HTTP connection (1): 127.0.0.1:8080
+2 -> 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,707 - 
+ ########### ENTRAMOS EN UNA ELECCION [2] ###########
+
+INFO 2022-05-05 20:11:15,707 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+Datos ELECCION: ['200', '200']
+DEBUG 2022-05-05 20:11:15,710 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,708 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/eleccion/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,710 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+INFO 2022-05-05 20:11:15,704 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,710 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,712 - Starting new HTTP connection (1): 127.0.0.1:8080
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,711 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+DEBUG 2022-05-05 20:11:15,713 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,712 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,715 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,715 - 
+ ########### 2 -> idsDireccion: {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]}
+
+DEBUG 2022-05-05 20:11:15,715 - 
+ ########### idsMayores [2]: [] ###########
+
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,712 - 
+##########################0 <- Coordinador: 2##########################
+
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,716 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+2 -> 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,716 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,712 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,718 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,719 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,713 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,720 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,715 - Starting new HTTP connection (1): 127.0.0.1:8082
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,720 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,721 - 
+ ########### 1 -> idsDireccion: {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]}
+
+DEBUG 2022-05-05 20:11:15,721 - 
+ ########### idsMayores [1]: ['2'] ###########
+
+DEBUG 2022-05-05 20:11:15,721 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,715 - http://127.0.0.1:8082 "GET /api/eleccion/ HTTP/1.1" 200 3
+INFO 2022-05-05 20:11:15,717 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,722 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+DEBUG 2022-05-05 20:11:15,723 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,717 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/coordinador/2 HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,725 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,725 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,718 - 
+##########################0 <- Coordinador: 2##########################
+
+DEBUG 2022-05-05 20:11:15,719 - Starting new HTTP connection (1): 127.0.0.1:8082
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,726 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+INFO 2022-05-05 20:11:15,726 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,724 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,727 - http://127.0.0.1:8080 "GET /api/coordinador/2 HTTP/1.1" 200 3
+DEBUG 2022-05-05 20:11:15,728 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:15,726 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/coordinador/2 HTTP/1.1[0m" 200 -
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,729 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,726 - 
+##########################0 <- Coordinador: 2##########################
+
+INFO 2022-05-05 20:11:15,731 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/coordinador/2 HTTP/1.1[0m" 200 -
+2 -> 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,731 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,730 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+INFO 2022-05-05 20:11:15,724 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,732 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,732 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,733 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,733 - 
+ ########### ENTRAMOS EN UNA ELECCION [1] ###########
+
+DEBUG 2022-05-05 20:11:15,732 - 
+ ########### ENTRAMOS EN UNA ELECCION [2] ###########
+
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,734 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/eleccion/ HTTP/1.1[0m" 200 -
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,735 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,737 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,738 - http://127.0.0.1:8081 "GET /api/eleccion/ HTTP/1.1" 200 3
+INFO 2022-05-05 20:11:15,740 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,740 - 
+##########################1 <- Coordinador: 2##########################
+
+INFO 2022-05-05 20:11:15,741 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/coordinador/2 HTTP/1.1[0m" 200 -
+Datos ELECCION: ['200', '200']
+INFO 2022-05-05 20:11:15,741 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,742 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,742 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,743 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,732 - http://127.0.0.1:8080 "GET /api/coordinador/2 HTTP/1.1" 200 3
+DEBUG 2022-05-05 20:11:15,733 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,745 - Starting new HTTP connection (1): 127.0.0.1:8082
+2 -> 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,734 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/eleccion/ HTTP/1.1[0m" 200 -
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,745 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+DEBUG 2022-05-05 20:11:15,734 - http://127.0.0.1:8080 "GET /api/coordinador/2 HTTP/1.1" 200 3
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,746 - http://127.0.0.1:8082 "GET /api/eleccion/ HTTP/1.1" 200 3
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,738 - Starting new HTTP connection (1): 127.0.0.1:8080
+Datos ELECCION: ['200']
+DEBUG 2022-05-05 20:11:15,748 - Starting new HTTP connection (1): 127.0.0.1:8082
+2 -> 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,741 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,743 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:15,752 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,752 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,743 - http://127.0.0.1:8081 "GET /api/coordinador/2 HTTP/1.1" 200 3
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,753 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,753 - 
+ ########### 0 -> idsDireccion: {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]}
+
+DEBUG 2022-05-05 20:11:15,753 - 
+ ########### idsMayores [0]: ['2', '1'] ###########
+
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+INFO 2022-05-05 20:11:15,744 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,746 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,754 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+DEBUG 2022-05-05 20:11:15,754 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,755 - Starting new HTTP connection (1): 127.0.0.1:8082
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,755 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,755 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:15,756 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,749 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,751 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,758 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,752 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,753 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+INFO 2022-05-05 20:11:15,759 - 
+##########################1 <- Coordinador: 2##########################
+
+DEBUG 2022-05-05 20:11:15,759 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:15,760 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/coordinador/2 HTTP/1.1[0m" 200 -
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,761 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,761 - 
+ ########### 1 -> idsDireccion: {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]}
+
+INFO 2022-05-05 20:11:15,761 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,761 - 
+ ########### idsMayores [1]: ['2'] ###########
+
+DEBUG 2022-05-05 20:11:15,761 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,753 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,762 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,748 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,757 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,763 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,763 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,764 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,758 - 
+ ########### ENTRAMOS EN UNA ELECCION [2] ###########
+
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,758 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/eleccion/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,764 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,761 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,762 - http://127.0.0.1:8081 "GET /api/coordinador/2 HTTP/1.1" 200 3
+DEBUG 2022-05-05 20:11:15,762 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,768 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,771 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,766 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,772 - Starting new HTTP connection (1): 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,772 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,765 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,773 - http://127.0.0.1:8082 "GET /api/eleccion/ HTTP/1.1" 200 3
+DEBUG 2022-05-05 20:11:15,774 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:15,773 - 
+##########################1 <- Coordinador: 2##########################
+
+INFO 2022-05-05 20:11:15,776 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/coordinador/2 HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,776 - 
+ ########### ENTRAMOS EN UNA ELECCION [2] ###########
+
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,777 - http://127.0.0.1:8081 "GET /api/coordinador/2 HTTP/1.1" 200 3
+INFO 2022-05-05 20:11:15,778 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,776 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,778 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,779 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,779 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:15,780 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,780 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+INFO 2022-05-05 20:11:15,778 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/eleccion/ HTTP/1.1[0m" 200 -
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,780 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,782 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,781 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,782 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,783 - http://127.0.0.1:8082 "GET /api/eleccion/ HTTP/1.1" 200 3
+DEBUG 2022-05-05 20:11:15,784 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,782 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,785 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,785 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:15,786 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+INFO 2022-05-05 20:11:15,786 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,782 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+Datos ELECCION: ['200']
+DEBUG 2022-05-05 20:11:15,788 - 
+ ########### ENTRAMOS EN UNA ELECCION [1] ###########
+
+DEBUG 2022-05-05 20:11:15,783 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+INFO 2022-05-05 20:11:15,785 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,785 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,787 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,789 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,788 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,790 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,790 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+DEBUG 2022-05-05 20:11:15,790 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,790 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,792 - Starting new HTTP connection (1): 127.0.0.1:8081
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,789 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,792 - 
+ ########### 2 -> idsDireccion: {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]}
+
+DEBUG 2022-05-05 20:11:15,792 - 
+ ########### idsMayores [2]: [] ###########
+
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,790 - Starting new HTTP connection (1): 127.0.0.1:8080
+2 -> 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,788 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+INFO 2022-05-05 20:11:15,793 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/eleccion/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,797 - http://127.0.0.1:8081 "GET /api/eleccion/ HTTP/1.1" 200 3
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,789 - 
+ ########### 2 -> idsDireccion: {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]}
+
+DEBUG 2022-05-05 20:11:15,798 - 
+ ########### idsMayores [2]: [] ###########
+
+INFO 2022-05-05 20:11:15,794 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,796 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,798 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+Datos ELECCION: ['200', '200']
+INFO 2022-05-05 20:11:15,800 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+2 -> 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,795 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,800 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,797 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,801 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,792 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,800 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,803 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,800 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,804 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,805 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,805 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+INFO 2022-05-05 20:11:15,804 - 
+##########################0 <- Coordinador: 2##########################
+
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,808 - Starting new HTTP connection (1): 127.0.0.1:8080
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,808 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,807 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/coordinador/2 HTTP/1.1[0m" 200 -
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,809 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+INFO 2022-05-05 20:11:15,810 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,810 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,811 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,811 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,812 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,813 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,810 - http://127.0.0.1:8080 "GET /api/coordinador/2 HTTP/1.1" 200 3
+INFO 2022-05-05 20:11:15,813 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,814 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,815 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,815 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:15,815 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+INFO 2022-05-05 20:11:15,814 - 
+##########################0 <- Coordinador: 2##########################
+
+INFO 2022-05-05 20:11:15,815 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,815 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/coordinador/2 HTTP/1.1[0m" 200 -
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,817 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,813 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:15,818 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,818 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+2 -> 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,817 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,819 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,822 - Starting new HTTP connection (1): 127.0.0.1:8082
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,817 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,822 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,817 - http://127.0.0.1:8080 "GET /api/coordinador/2 HTTP/1.1" 200 3
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,823 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,823 - 
+ ########### 1 -> idsDireccion: {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]}
+
+2 -> 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,818 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,823 - 
+ ########### idsMayores [1]: ['2'] ###########
+
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,819 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+DEBUG 2022-05-05 20:11:15,825 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,826 - Starting new HTTP connection (1): 127.0.0.1:8082
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,826 - 
+ ########### 2 -> idsDireccion: {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]}
+
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,826 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,826 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,826 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,822 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,824 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,828 - Starting new HTTP connection (1): 127.0.0.1:8081
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,826 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,830 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,830 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,826 - 
+ ########### idsMayores [2]: [] ###########
+
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,831 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+2 -> 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,821 - Starting new HTTP connection (1): 127.0.0.1:8081
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,832 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,827 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,834 - 
+##########################1 <- Coordinador: 2##########################
+
+DEBUG 2022-05-05 20:11:15,828 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,835 - 
+ ########### 2 -> idsDireccion: {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]}
+
+INFO 2022-05-05 20:11:15,835 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/coordinador/2 HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,835 - 
+ ########### idsMayores [2]: [] ###########
+
+DEBUG 2022-05-05 20:11:15,836 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,837 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,837 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:15,837 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+2 -> 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,831 - Starting new HTTP connection (1): 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,839 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,832 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,829 - 
+ ########### ENTRAMOS EN UNA ELECCION [2] ###########
+
+INFO 2022-05-05 20:11:15,841 - 
+##########################1 <- Coordinador: 2##########################
+
+INFO 2022-05-05 20:11:15,841 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/coordinador/2 HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,842 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,843 - 
+##########################0 <- Coordinador: 2##########################
+
+INFO 2022-05-05 20:11:15,843 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/coordinador/2 HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,843 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,844 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,845 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,829 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/eleccion/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,838 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,838 - http://127.0.0.1:8081 "GET /api/coordinador/2 HTTP/1.1" 200 3
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,847 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,840 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,845 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,847 - 
+##########################0 <- Coordinador: 2##########################
+
+DEBUG 2022-05-05 20:11:15,845 - http://127.0.0.1:8081 "GET /api/coordinador/2 HTTP/1.1" 200 3
+DEBUG 2022-05-05 20:11:15,847 - http://127.0.0.1:8082 "GET /api/eleccion/ HTTP/1.1" 200 3
+DEBUG 2022-05-05 20:11:15,845 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,848 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,846 - http://127.0.0.1:8080 "GET /api/coordinador/2 HTTP/1.1" 200 3
+INFO 2022-05-05 20:11:15,848 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/coordinador/2 HTTP/1.1[0m" 200 -
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,849 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+INFO 2022-05-05 20:11:15,850 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,850 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+2 -> 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,851 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,851 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,851 - http://127.0.0.1:8080 "GET /api/coordinador/2 HTTP/1.1" 200 3
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,853 - Starting new HTTP connection (1): 127.0.0.1:8081
+Datos ELECCION: ['200']
+INFO 2022-05-05 20:11:15,855 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+2 -> 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,851 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,855 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,856 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,856 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,856 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:15,856 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,856 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,858 - Starting new HTTP connection (1): 127.0.0.1:8082
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,859 - Starting new HTTP connection (1): 127.0.0.1:8080
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,854 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,860 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,854 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,858 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,861 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,859 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+INFO 2022-05-05 20:11:15,862 - 
+##########################1 <- Coordinador: 2##########################
+
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,862 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,862 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/coordinador/2 HTTP/1.1[0m" 200 -
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,860 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,860 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+DEBUG 2022-05-05 20:11:15,864 - Starting new HTTP connection (1): 127.0.0.1:8082
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,863 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,865 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:15,866 - 
+##########################1 <- Coordinador: 2##########################
+
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,866 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,866 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,866 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+INFO 2022-05-05 20:11:15,866 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/coordinador/2 HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,865 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,869 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,865 - http://127.0.0.1:8081 "GET /api/coordinador/2 HTTP/1.1" 200 3
+INFO 2022-05-05 20:11:15,871 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,871 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,872 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,874 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,870 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,875 - http://127.0.0.1:8081 "GET /api/coordinador/2 HTTP/1.1" 200 3
+INFO 2022-05-05 20:11:15,875 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,876 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,876 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:15,877 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,877 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,878 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:15,878 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:15,877 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,878 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,878 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,878 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,879 - 
+ ########### 2 -> idsDireccion: {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]}
+
+DEBUG 2022-05-05 20:11:15,879 - 
+ ########### idsMayores [2]: [] ###########
+
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,879 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,879 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,880 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,880 - Starting new HTTP connection (1): 127.0.0.1:8080
+2 -> 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,881 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,879 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,882 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,883 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,883 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,884 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,885 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:15,885 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,885 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,886 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,886 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,886 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,886 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,887 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,888 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,888 - 
+##########################0 <- Coordinador: 2##########################
+
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,889 - Starting new HTTP connection (1): 127.0.0.1:8082
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,889 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,889 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/coordinador/2 HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,890 - http://127.0.0.1:8080 "GET /api/coordinador/2 HTTP/1.1" 200 3
+INFO 2022-05-05 20:11:15,891 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,892 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+2 -> 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,892 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,892 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,894 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,894 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,894 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,894 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,895 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,895 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,895 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,896 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:15,896 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,896 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,897 - Starting new HTTP connection (1): 127.0.0.1:8081
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,899 - Starting new HTTP connection (1): 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,903 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,899 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,896 - 
+##########################1 <- Coordinador: 2##########################
+
+INFO 2022-05-05 20:11:15,905 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,905 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/coordinador/2 HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,905 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,906 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,906 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,907 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,907 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,907 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,907 - http://127.0.0.1:8081 "GET /api/coordinador/2 HTTP/1.1" 200 3
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,909 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,909 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,909 - Starting new HTTP connection (1): 127.0.0.1:8080
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,910 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+INFO 2022-05-05 20:11:15,911 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,911 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,912 - Starting new HTTP connection (1): 127.0.0.1:8082
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,913 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+INFO 2022-05-05 20:11:15,913 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,913 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,913 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,914 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,914 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,914 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:15,914 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,912 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,915 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,915 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,916 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,917 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,918 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,918 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,919 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,919 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,919 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,920 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,920 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+DEBUG 2022-05-05 20:11:15,920 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,921 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,921 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,921 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,922 - Starting new HTTP connection (1): 127.0.0.1:8082
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,923 - Starting new HTTP connection (1): 127.0.0.1:8082
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,924 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,925 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,926 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,926 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,926 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,926 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,926 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,927 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,928 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,928 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,928 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:15,928 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,928 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:15,928 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,929 - Starting new HTTP connection (1): 127.0.0.1:8080
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,930 - Starting new HTTP connection (1): 127.0.0.1:8081
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,930 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,931 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,931 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,932 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,933 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,933 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+DEBUG 2022-05-05 20:11:15,934 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,935 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,936 - Starting new HTTP connection (1): 127.0.0.1:8080
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,937 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,938 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,939 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,940 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+INFO 2022-05-05 20:11:15,941 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,942 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,942 - Starting new HTTP connection (1): 127.0.0.1:8082
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,942 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,942 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:15,943 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+INFO 2022-05-05 20:11:15,943 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,944 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,944 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,945 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,945 - Starting new HTTP connection (1): 127.0.0.1:8080
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,945 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+INFO 2022-05-05 20:11:15,946 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,946 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,947 - Starting new HTTP connection (1): 127.0.0.1:8081
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,947 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,948 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,948 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,948 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,949 - Starting new HTTP connection (1): 127.0.0.1:8082
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,950 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,950 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,951 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,951 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,952 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,952 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,952 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,952 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,953 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+DEBUG 2022-05-05 20:11:15,953 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,954 - Starting new HTTP connection (1): 127.0.0.1:8080
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,953 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,955 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,955 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,956 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:15,956 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,956 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,957 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,958 - Starting new HTTP connection (1): 127.0.0.1:8082
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,958 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,960 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,960 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,961 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,961 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+INFO 2022-05-05 20:11:15,959 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,961 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,962 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,962 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,964 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,964 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,964 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:15,966 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,967 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,968 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,968 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,968 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,969 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,969 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:15,969 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,971 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,966 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,971 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,973 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:15,972 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,974 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+INFO 2022-05-05 20:11:15,974 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,975 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,975 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,975 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,976 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,977 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,977 - Starting new HTTP connection (1): 127.0.0.1:8082
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+INFO 2022-05-05 20:11:15,978 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:15,978 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,979 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,979 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,979 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,980 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,980 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,980 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,981 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,981 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,982 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,983 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,984 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,984 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,982 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,985 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+DEBUG 2022-05-05 20:11:15,985 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,986 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,986 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:15,986 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,987 - Starting new HTTP connection (1): 127.0.0.1:8082
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,988 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:15,988 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,989 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:15,990 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,990 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:15,991 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,991 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:15,991 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+DEBUG 2022-05-05 20:11:15,991 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:15,992 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:15,992 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:15,992 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,993 - Starting new HTTP connection (1): 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,994 - Starting new HTTP connection (1): 127.0.0.1:8082
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:15,995 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:15,995 - 127.0.0.1 - - [05/May/2022 20:11:15] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:15,996 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:15,997 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:15,997 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:15,999 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:16,001 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,001 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,002 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,003 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+INFO 2022-05-05 20:11:16,003 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,003 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,003 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,004 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,005 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,006 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,003 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,007 - Starting new HTTP connection (1): 127.0.0.1:8081
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,008 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+INFO 2022-05-05 20:11:16,009 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,009 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,009 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,010 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,010 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+INFO 2022-05-05 20:11:16,010 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,011 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,011 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+INFO 2022-05-05 20:11:16,011 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,013 - Starting new HTTP connection (1): 127.0.0.1:8080
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,013 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:16,014 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,014 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,015 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,015 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,015 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,016 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,016 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,016 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,016 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+DEBUG 2022-05-05 20:11:16,016 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,016 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,016 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,019 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,019 - Starting new HTTP connection (1): 127.0.0.1:8081
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,019 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:16,020 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,020 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,021 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,021 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,021 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+INFO 2022-05-05 20:11:16,022 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,022 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+DEBUG 2022-05-05 20:11:16,023 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,023 - Starting new HTTP connection (1): 127.0.0.1:8082
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,025 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:16,025 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,025 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,025 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+DEBUG 2022-05-05 20:11:16,025 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,026 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,026 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,026 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,028 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,028 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:16,029 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,030 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,030 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,030 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,030 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,031 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,031 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,031 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,033 - Starting new HTTP connection (1): 127.0.0.1:8080
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,034 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:16,036 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,036 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,036 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,037 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+DEBUG 2022-05-05 20:11:16,037 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,039 - Starting new HTTP connection (1): 127.0.0.1:8082
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,039 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,040 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:16,042 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,042 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,043 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,043 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,043 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,043 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,044 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,044 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,044 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+DEBUG 2022-05-05 20:11:16,044 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,044 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,044 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,044 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,044 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,046 - Starting new HTTP connection (1): 127.0.0.1:8081
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,047 - Starting new HTTP connection (1): 127.0.0.1:8080
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,048 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:16,048 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,049 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,049 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,049 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+INFO 2022-05-05 20:11:16,050 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,050 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,051 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,051 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,051 - Starting new HTTP connection (1): 127.0.0.1:8081
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,052 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,054 - Starting new HTTP connection (1): 127.0.0.1:8082
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,054 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:16,055 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,055 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,056 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,057 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,057 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,057 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,058 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,058 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,058 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,058 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,058 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,058 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,059 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,059 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,060 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,061 - Starting new HTTP connection (1): 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,061 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:16,062 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,063 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,063 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,064 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,064 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,064 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,065 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,068 - Starting new HTTP connection (1): 127.0.0.1:8081
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,068 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:16,069 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,070 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,070 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,071 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+DEBUG 2022-05-05 20:11:16,071 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,071 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,072 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,072 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,072 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,073 - Starting new HTTP connection (1): 127.0.0.1:8082
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,074 - Starting new HTTP connection (1): 127.0.0.1:8081
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,074 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,074 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+INFO 2022-05-05 20:11:16,076 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+INFO 2022-05-05 20:11:16,076 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,076 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,076 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,077 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,077 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+DEBUG 2022-05-05 20:11:16,078 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,078 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,079 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,079 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+INFO 2022-05-05 20:11:16,080 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,080 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:16,080 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,081 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,081 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+INFO 2022-05-05 20:11:16,082 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,082 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,084 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,084 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,085 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,085 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,086 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,086 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,086 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:16,087 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,087 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,088 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,089 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,089 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,089 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+DEBUG 2022-05-05 20:11:16,089 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+INFO 2022-05-05 20:11:16,089 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,090 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+DEBUG 2022-05-05 20:11:16,091 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,091 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,091 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,092 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,092 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,093 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+INFO 2022-05-05 20:11:16,093 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,094 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,094 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,095 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,095 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,095 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,096 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,096 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,096 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+INFO 2022-05-05 20:11:16,097 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,099 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,099 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,102 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,102 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,105 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:16,106 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,107 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,108 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,108 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,108 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,109 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,109 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,109 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+DEBUG 2022-05-05 20:11:16,109 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,110 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,111 - Starting new HTTP connection (1): 127.0.0.1:8082
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,111 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,111 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,111 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+INFO 2022-05-05 20:11:16,112 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,113 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,113 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:16,114 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,114 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+INFO 2022-05-05 20:11:16,115 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,115 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,115 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,116 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,117 - Starting new HTTP connection (1): 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,118 - Starting new HTTP connection (1): 127.0.0.1:8082
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,116 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,118 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,118 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+INFO 2022-05-05 20:11:16,119 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,120 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,120 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:16,120 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,121 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,122 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+INFO 2022-05-05 20:11:16,122 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,122 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,123 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,123 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,123 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,123 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,124 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,124 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,125 - Starting new HTTP connection (1): 127.0.0.1:8082
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,125 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:16,126 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,127 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,128 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,128 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,128 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,129 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,129 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+DEBUG 2022-05-05 20:11:16,129 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,130 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,130 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,130 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,131 - Starting new HTTP connection (1): 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,132 - Starting new HTTP connection (1): 127.0.0.1:8082
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,136 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:16,139 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,140 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,140 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,141 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,141 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,142 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,142 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+DEBUG 2022-05-05 20:11:16,142 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,142 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,140 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,143 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,143 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,144 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,145 - Starting new HTTP connection (1): 127.0.0.1:8082
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,145 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:16,146 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,147 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,147 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,148 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+INFO 2022-05-05 20:11:16,148 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,149 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,149 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,149 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,149 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,150 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,150 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,150 - Starting new HTTP connection (1): 127.0.0.1:8082
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,152 - Starting new HTTP connection (1): 127.0.0.1:8081
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,152 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:16,153 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,153 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,154 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,155 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,155 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,155 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,155 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,156 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,157 - Starting new HTTP connection (1): 127.0.0.1:8082
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,157 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,154 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,158 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,158 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,158 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+INFO 2022-05-05 20:11:16,158 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,159 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,160 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:16,159 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,160 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,161 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,162 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+DEBUG 2022-05-05 20:11:16,162 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+INFO 2022-05-05 20:11:16,162 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,162 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,162 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,165 - Starting new HTTP connection (1): 127.0.0.1:8081
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,167 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:16,167 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,167 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+DEBUG 2022-05-05 20:11:16,168 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,169 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:16,170 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,171 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+DEBUG 2022-05-05 20:11:16,171 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,172 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,172 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,174 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,174 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:16,176 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,176 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,176 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,177 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,177 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,177 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,177 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,177 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,178 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,178 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,178 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,179 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,179 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,179 - Starting new HTTP connection (1): 127.0.0.1:8080
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,181 - Starting new HTTP connection (1): 127.0.0.1:8081
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,181 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:16,182 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,183 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,183 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,183 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,184 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+INFO 2022-05-05 20:11:16,184 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,184 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,184 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,185 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,185 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,186 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,187 - Starting new HTTP connection (1): 127.0.0.1:8082
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,187 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:16,188 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,189 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,189 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,190 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,190 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,191 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,190 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,191 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,191 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,191 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,191 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,191 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,192 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,193 - Starting new HTTP connection (1): 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,194 - Starting new HTTP connection (1): 127.0.0.1:8080
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,194 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:16,195 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,195 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,197 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,198 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,198 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,200 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,203 - Starting new HTTP connection (1): 127.0.0.1:8082
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+INFO 2022-05-05 20:11:16,200 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,203 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,204 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,205 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,205 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,206 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+DEBUG 2022-05-05 20:11:16,207 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+INFO 2022-05-05 20:11:16,206 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,208 - Starting new HTTP connection (1): 127.0.0.1:8080
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,208 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,208 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,209 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,209 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,210 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,210 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,210 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,211 - Starting new HTTP connection (1): 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,212 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:16,212 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,212 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,213 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,214 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+INFO 2022-05-05 20:11:16,214 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,214 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,215 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,215 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,215 - Starting new HTTP connection (1): 127.0.0.1:8081
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,216 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,218 - Starting new HTTP connection (1): 127.0.0.1:8082
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,218 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:16,219 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,219 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,220 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,220 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,220 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,220 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,221 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,221 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,221 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,222 - Starting new HTTP connection (1): 127.0.0.1:8081
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,223 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:16,223 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,224 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,224 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,225 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,225 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,225 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,225 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,226 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,226 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+DEBUG 2022-05-05 20:11:16,226 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,227 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,227 - Starting new HTTP connection (1): 127.0.0.1:8082
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,228 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+INFO 2022-05-05 20:11:16,229 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,231 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:16,232 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,233 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,233 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,234 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,234 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,235 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,235 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+DEBUG 2022-05-05 20:11:16,235 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,235 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,237 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,237 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,238 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,239 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,239 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,239 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,240 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+DEBUG 2022-05-05 20:11:16,240 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,240 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,242 - Starting new HTTP connection (1): 127.0.0.1:8082
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,242 - Starting new HTTP connection (1): 127.0.0.1:8081
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,242 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+INFO 2022-05-05 20:11:16,243 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,244 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:16,245 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,245 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,246 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,246 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,246 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,246 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,245 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,247 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,247 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,248 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+DEBUG 2022-05-05 20:11:16,248 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,248 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+DEBUG 2022-05-05 20:11:16,248 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,248 - Starting new HTTP connection (1): 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,251 - Starting new HTTP connection (1): 127.0.0.1:8080
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,251 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:16,252 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,253 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,253 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,253 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,254 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,254 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,255 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,255 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,255 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,256 - Starting new HTTP connection (1): 127.0.0.1:8082
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,257 - Starting new HTTP connection (1): 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,257 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:16,259 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,259 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,260 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,260 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,260 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,260 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,261 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+INFO 2022-05-05 20:11:16,262 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,262 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+DEBUG 2022-05-05 20:11:16,263 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,263 - Starting new HTTP connection (1): 127.0.0.1:8081
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,264 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,265 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+DEBUG 2022-05-05 20:11:16,265 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,265 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,267 - Starting new HTTP connection (1): 127.0.0.1:8080
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,267 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:16,267 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,269 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,270 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,270 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,271 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,271 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,273 - Starting new HTTP connection (1): 127.0.0.1:8081
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,273 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:16,274 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,274 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,275 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,275 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,276 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,276 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+DEBUG 2022-05-05 20:11:16,276 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,277 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,277 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,277 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,277 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,277 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,278 - Starting new HTTP connection (1): 127.0.0.1:8082
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,279 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,280 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:16,280 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,281 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,281 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,282 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,282 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,282 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,282 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,283 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,283 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,283 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,284 - Starting new HTTP connection (1): 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,285 - Starting new HTTP connection (1): 127.0.0.1:8080
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,285 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+INFO 2022-05-05 20:11:16,286 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,287 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,287 - Starting new HTTP connection (1): 127.0.0.1:8082
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,287 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,288 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+INFO 2022-05-05 20:11:16,288 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,289 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,289 - Starting new HTTP connection (1): 127.0.0.1:8080
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,290 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+INFO 2022-05-05 20:11:16,291 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,292 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,292 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,292 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,293 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,293 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,293 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+INFO 2022-05-05 20:11:16,293 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,293 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,294 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,294 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,295 - Starting new HTTP connection (1): 127.0.0.1:8081
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,297 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:16,297 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,298 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,299 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+INFO 2022-05-05 20:11:16,301 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,301 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,301 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,302 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,302 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,303 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,303 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,305 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,305 - Starting new HTTP connection (1): 127.0.0.1:8082
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,306 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:16,307 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,308 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,308 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,308 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+INFO 2022-05-05 20:11:16,308 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,309 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,309 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,310 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,310 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,310 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,310 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,310 - Starting new HTTP connection (1): 127.0.0.1:8082
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,313 - Starting new HTTP connection (1): 127.0.0.1:8081
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,313 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:16,314 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,314 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,314 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,315 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,316 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,316 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+DEBUG 2022-05-05 20:11:16,316 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,317 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,317 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,318 - Starting new HTTP connection (1): 127.0.0.1:8082
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,316 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,318 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,319 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,319 - Starting new HTTP connection (1): 127.0.0.1:8080
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,320 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:16,321 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,321 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,321 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,321 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,322 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,322 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+INFO 2022-05-05 20:11:16,323 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,323 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,323 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,324 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,324 - Starting new HTTP connection (1): 127.0.0.1:8081
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,325 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,325 - Starting new HTTP connection (1): 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+INFO 2022-05-05 20:11:16,325 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,326 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,327 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,327 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+DEBUG 2022-05-05 20:11:16,328 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,329 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,330 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,330 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,332 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,333 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:16,335 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,336 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,337 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,337 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,338 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,338 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,338 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,339 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,339 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,339 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,340 - Starting new HTTP connection (1): 127.0.0.1:8080
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,340 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,340 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,340 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,341 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:16,342 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,342 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,343 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,343 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,343 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+INFO 2022-05-05 20:11:16,344 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,345 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,345 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,346 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,346 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,346 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+INFO 2022-05-05 20:11:16,347 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,348 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,348 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,349 - Starting new HTTP connection (1): 127.0.0.1:8082
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,349 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,351 - Starting new HTTP connection (1): 127.0.0.1:8081
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,352 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:16,352 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,353 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,353 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,354 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,354 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,354 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,354 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,355 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,355 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,356 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,356 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,356 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,356 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,356 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,357 - Starting new HTTP connection (1): 127.0.0.1:8080
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,358 - Starting new HTTP connection (1): 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,359 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:16,360 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,360 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,361 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,361 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,361 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,362 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,362 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,365 - Starting new HTTP connection (1): 127.0.0.1:8082
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,366 - Starting new HTTP connection (1): 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,366 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,368 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,369 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+DEBUG 2022-05-05 20:11:16,369 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+INFO 2022-05-05 20:11:16,370 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,370 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,370 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,370 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,371 - Starting new HTTP connection (1): 127.0.0.1:8081
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,372 - Starting new HTTP connection (1): 127.0.0.1:8081
+INFO 2022-05-05 20:11:16,373 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,373 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,374 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,374 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,374 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,374 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,375 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,375 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+INFO 2022-05-05 20:11:16,375 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,377 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,377 - Starting new HTTP connection (1): 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,377 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,379 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,379 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+DEBUG 2022-05-05 20:11:16,379 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+INFO 2022-05-05 20:11:16,380 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,381 - Starting new HTTP connection (1): 127.0.0.1:8082
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,382 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+DEBUG 2022-05-05 20:11:16,382 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,383 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,384 - Starting new HTTP connection (1): 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,384 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:16,385 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,386 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,386 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,387 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 0 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,387 - RQUEST 0 (127.0.0.1:8080) -> 2 (127.0.0.1:8082)
+DEBUG 2022-05-05 20:11:16,387 - 
+  ###### [0] Ya hay coordinador: 2 y en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,387 - 
+  ############################### [0] ERROR: en idsDireccion hay {0: ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081]} ######
+DEBUG 2022-05-05 20:11:16,387 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,388 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+DEBUG 2022-05-05 20:11:16,388 - http://127.0.0.1:8082 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 1 -> idsDireccion[2] = ['127.0.0.1', 8082]
+DEBUG 2022-05-05 20:11:16,389 - RQUEST 1 (127.0.0.1:8081) -> 2 (127.0.0.1:8082)
+0 -> ping a 127.0.0.1:8080
+0 -> ping a 127.0.0.1:8081
+0 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,389 - Starting new HTTP connection (1): 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,389 - 
+  ###### [1] Ya hay coordinador: 2 y en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+DEBUG 2022-05-05 20:11:16,389 - 
+  ############################### [1] ERROR: en idsDireccion hay {1: ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080], '2': ['127.0.0.1', 8082]} ######
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,390 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
+2 -> ping a 127.0.0.1:8080
+2 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,392 - Starting new HTTP connection (1): 127.0.0.1:8080
+1 -> ping a 127.0.0.1:8080
+1 entra a hacer ping a 127.0.0.1:8080
+DEBUG 2022-05-05 20:11:16,393 - Starting new HTTP connection (1): 127.0.0.1:8080
+INFO 2022-05-05 20:11:16,394 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+INFO 2022-05-05 20:11:16,394 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,394 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+DEBUG 2022-05-05 20:11:16,395 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+pingProcesos(): 0 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,396 - RQUEST 0 (127.0.0.1:8080) -> 1 (127.0.0.1:8081)
+pingProcesos(): 2 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,400 - RQUEST 2 (127.0.0.1:8082) -> 0 (127.0.0.1:8080)
+2 -> ping a 127.0.0.1:8081
+2 entra a hacer ping a 127.0.0.1:8081
+DEBUG 2022-05-05 20:11:16,403 - Starting new HTTP connection (1): 127.0.0.1:8081
+0 -> ping a 127.0.0.1:8082
+0 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,404 - Starting new HTTP connection (1): 127.0.0.1:8082
+INFO 2022-05-05 20:11:16,406 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+DEBUG 2022-05-05 20:11:16,407 - http://127.0.0.1:8080 "GET /api/id/ HTTP/1.1" 200 1
+INFO 2022-05-05 20:11:16,408 - 127.0.0.1 - - [05/May/2022 20:11:16] "[37mGET /api/id/ HTTP/1.1[0m" 200 -
+pingProcesos(): 1 -> idsDireccion[0] = ['127.0.0.1', 8080]
+DEBUG 2022-05-05 20:11:16,409 - RQUEST 1 (127.0.0.1:8081) -> 0 (127.0.0.1:8080)
+DEBUG 2022-05-05 20:11:16,409 - http://127.0.0.1:8081 "GET /api/id/ HTTP/1.1" 200 1
+1 -> ping a 127.0.0.1:8081
+1 -> ping a 127.0.0.1:8082
+1 entra a hacer ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,411 - Starting new HTTP connection (1): 127.0.0.1:8082
+pingProcesos(): 2 -> idsDireccion[1] = ['127.0.0.1', 8081]
+DEBUG 2022-05-05 20:11:16,411 - RQUEST 2 (127.0.0.1:8082) -> 1 (127.0.0.1:8081)
+2 -> ping a 127.0.0.1:8082
+DEBUG 2022-05-05 20:11:16,412 - 
+  ###### [2] Ya hay coordinador: 2 y en idsDireccion hay {2: ['127.0.0.1', 8082], '1': ['127.0.0.1', 8081], '0': ['127.0.0.1', 8080]} ######
