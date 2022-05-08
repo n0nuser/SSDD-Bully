@@ -4,6 +4,7 @@ import sys
 import logging
 import requests
 import threading
+import socket
 from flask import Flask
 from random import uniform as randfloat
 from threading import Condition, Lock
@@ -30,7 +31,11 @@ class Proceso:
         estado: bool = True,
     ):
         if eleccion is None:
-            eleccion = {"acuerdo": 0, "eleccion_activa": 1, "eleccion_pasiva": 0}
+            eleccion = {
+                "acuerdo": False,
+                "eleccion_activa": True,
+                "eleccion_pasiva": False,
+            }
         self.id = id
         self.direccion = direccion
         self.puerto = puerto
@@ -94,10 +99,19 @@ def nothing():  # Literally doing nothing
 def proceso_run(miPuertoFlask):  # sourcery skip: avoid-builtin-shadow
     global proceso, idsDireccion, handler, direcciones
     # Este hace las peticiones a los demás procesos continuamente
+    aux = 0
     while True:
-        if not proceso.estado:
+        if proceso.estado == False:
+            print("########### $(" + str(proceso.id) + ") WAITING ###########")
+            aux = 1
             handler.wait()
         else:
+            if aux == 1:
+                print(
+                    "########### $("
+                    + str(proceso.id)
+                    + ") NO HE WAITEADO, ME FALTA UN HERBOR ###########"
+                )
             # logging.info("El numero de procesos es: " + str(process_number))
             segundos = randfloat(0.5, 1)
             threading.Timer(segundos, nothing)
@@ -106,6 +120,16 @@ def proceso_run(miPuertoFlask):  # sourcery skip: avoid-builtin-shadow
             pingProcesos()
             if proceso.coordinador is None:
                 # logging.info("Array direcciones:" + str(idsDireccion))
+                print(
+                    "########## ELECCION ("
+                    + str(proceso.id)
+                    + "): elección activa (coordinador None) ##########"
+                )
+                proceso.eleccion = {
+                    "acuerdo": False,
+                    "eleccion_activa": True,
+                    "eleccion_pasiva": False,
+                }
                 eleccionRespuesta = eleccionCandidato()
                 logging.info(
                     "No hay coordinador (http://localhost:"
@@ -137,73 +161,115 @@ def proceso_run(miPuertoFlask):  # sourcery skip: avoid-builtin-shadow
                             + "/api/computar/"
                         ).text
                         if computar == "400":  # Si está en estado de espera
+                            idsDireccion.pop(proceso.coordinador, None)
+                            proceso.coordinador = None
+                            print(
+                                "########## ELECCION ("
+                                + str(proceso.id)
+                                + "): elección activa (coordinador apagado) ##########"
+                            )
+                            proceso.eleccion = {
+                                "acuerdo": False,
+                                "eleccion_activa": True,
+                                "eleccion_pasiva": False,
+                            }
                             idsMayores = [
                                 i for i in idsDireccion.keys() if i > proceso.id
                             ]
-                            for i in idsMayores:
-                                eleccion = requests.get(
-                                    "http://" + direcciones[i] + "/api/eleccion"
-                                ).text
-                                logging.info(
-                                    "Había coordinador. Respuesta eleccion: " + eleccion
-                                )
+                            if len(idsMayores) > 0:
+                                for i in idsMayores:
+                                    eleccion = requests.get(
+                                        "http://" + direcciones[i] + "/api/eleccion"
+                                    ).text
+                                    # logging.info(
+                                    #     "Había coordinador. Respuesta eleccion: " + eleccion
+                                    # )
+                            else:
+                                proceso.coordinador = proceso.id
+                                for direccion, port in itertools.product(
+                                    direcciones, range(process_number)
+                                ):
+                                    # Y se lo digo a los demás procesos
+                                    requests.get(
+                                        "http://"
+                                        + direccion
+                                        + ":"
+                                        + str(port)
+                                        + "/api/coordinador/"
+                                        + str(proceso.id)
+                                    )
+                        else:
+                            print(
+                                "########## ELECCION ("
+                                + str(proceso.id)
+                                + "): acuerdo ##########"
+                            )
+                            proceso.eleccion = {
+                                "acuerdo": True,
+                                "eleccion_activa": False,
+                                "eleccion_pasiva": False,
+                            }
                 except Exception as e:
-                    logging.debug(
-                        "\n  ############################### ["
-                        + str(proceso.id)
-                        + "] ERROR: en idsDireccion hay "
-                        + str(idsDireccion)
-                        + " ######"
-                    )
+                    pass
+                    # logging.debug(
+                    #     "\n  ############################### ["
+                    #     + str(proceso.id)
+                    #     + "] ERROR: en idsDireccion hay "
+                    #     + str(idsDireccion)
+                    #     + " -> (" + str(proceso.coordinador) + ") ######", exc_info=True
+                    # )
 
 
 def pingProcesos():  # sourcery skip: avoid-builtin-shadow
-    global idsDireccion, direcciones
+    global proceso, idsDireccion, direcciones
     for direccion, port in itertools.product(direcciones, range(process_number)):
         puerto = 8080 + port
-        print(str(proceso.id) + " -> ping a " + direccion + ":" + str(puerto))
+        # print(str(proceso.id) + " -> ping a " + direccion + ":" + str(puerto))
         if (puerto != proceso.puerto) or (direccion != proceso.direccion):
-            print(
-                str(proceso.id)
-                + " entra a hacer ping a "
-                + direccion
-                + ":"
-                + str(puerto)
-            )
+            # print(
+            #     str(proceso.id)
+            #     + " entra a hacer ping a "
+            #     + direccion
+            #     + ":"
+            #     + str(puerto)
+            # )
             with contextlib.suppress(Exception):
                 puerto = 8080 + port
-                id = requests.get(
-                    "http://" + direccion + ":" + str(puerto) + "/api/id/", timeout=1
-                ).text
+                id = int(
+                    requests.get(
+                        "http://" + direccion + ":" + str(puerto) + "/api/id/",
+                        timeout=1,
+                    ).text
+                )
                 idsDireccion[id] = [direccion, puerto]
-                print(
-                    "pingProcesos(): "
-                    + str(proceso.id)
-                    + " -> idsDireccion["
-                    + str(id)
-                    + "] = "
-                    + str(idsDireccion[id])
-                )
-                logging.debug(
-                    "RQUEST "
-                    + str(proceso.id)
-                    + " ("
-                    + proceso.direccion
-                    + ":"
-                    + str(proceso.puerto)
-                    + ") -> "
-                    + str(id)
-                    + " ("
-                    + idsDireccion[id][0]
-                    + ":"
-                    + str(idsDireccion[id][1])
-                    + ")"
-                )
+                # print(
+                #     "pingProcesos(): "
+                #     + str(proceso.id)
+                #     + " -> idsDireccion["
+                #     + str(id)
+                #     + "] = "
+                #     + str(idsDireccion[id])
+                # )
+                # logging.debug(
+                #     "RQUEST "
+                #     + str(proceso.id)
+                #     + " ("
+                #     + proceso.direccion
+                #     + ":"
+                #     + str(proceso.puerto)
+                #     + ") -> "
+                #     + str(id)
+                #     + " ("
+                #     + idsDireccion[id][0]
+                #     + ":"
+                #     + str(idsDireccion[id][1])
+                #     + ")"
+                # )
 
 
 def main(host, port, id):  # sourcery skip: avoid-builtin-shadow
-    FICHERO = "config.json"
     global proceso, idsDireccion, handler, direcciones, process_number
+    FICHERO = "config.json"
     # Puede dar problema al ser variables globales
     # por el hecho de que los demás hilos accedan
     # a la variable global de otro proceso
@@ -223,7 +289,7 @@ def main(host, port, id):  # sourcery skip: avoid-builtin-shadow
         # Este recibe las peticiones de los demás procesos
         api.run(host=host, port=port)
     except Exception:
-        logging.critical("Error en el servidor.")
+        logging.critical("Error en el servidor (" + str(host) + ":" + str(port) + ")")
         proceso_inicio.join()
 
 
@@ -232,8 +298,8 @@ def main(host, port, id):  # sourcery skip: avoid-builtin-shadow
 ###############################################################################
 @api.route("/api/id/")
 def apiId():
-    # logging.info(" +proceso.id + " <- Coordinador: " +proceso.coordinador)
-    return str(proceso.id)
+    global proceso
+    return str(proceso.id) if proceso.estado else ""
 
 
 # @api.route("/api/ok/")
@@ -244,11 +310,11 @@ def apiId():
 def eleccionThread():
     global proceso, idsDireccion
     # inicio
-    logging.debug(
-        "\n ########### ENTRAMOS EN UNA ELECCION ["
-        + str(proceso.id)
-        + "] ###########\n"
-    )
+    # logging.debug(
+    #     "\n ########### ENTRAMOS EN UNA ELECCION ["
+    #     + str(proceso.id)
+    #     + "] ###########\n"
+    # )
     pingProcesos()
     logging.debug(
         "\n ########### "
@@ -280,15 +346,15 @@ def eleccionThread():
             # esperamos en el endpoint coordinador el id del nuevo coordinador
             # si en un periodo de 1 segundo, no nos ha llegado ese mensaje, empezamos nuevas elecciones
 
-        # Si no existe un proceso con ID mayor que el mío ENCENDIDO
-        print("Datos ELECCION: " + str(eleccion))
+        # Si no existe un proceso con ID mayor que el mío ENCENDIDO que me de el OK
+        # print("Datos ELECCION: " + str(eleccion))
         if "200" not in eleccion:
             # Me autoproclamo coordinador
-            logging.debug(
-                "\n################### ELECCION COORDINADOR: "
-                + str(proceso.id)
-                + " ###################"
-            )
+            # logging.debug(
+            #     "\n################### ELECCION COORDINADOR: "
+            #     + str(proceso.id)
+            #     + " ###################"
+            # )
             proceso.coordinador = proceso.id
             for direccion, port in itertools.product(
                 direcciones, range(process_number)
@@ -302,6 +368,17 @@ def eleccionThread():
                     + "/api/coordinador/"
                     + str(proceso.id)
                 )
+        else:
+            print(
+                "################### ELECCION ("
+                + str(proceso.id)
+                + "): elección pasiva ###################"
+            )
+            proceso.eleccion = {
+                "acuerdo": False,
+                "eleccion_activa": False,
+                "eleccion_pasiva": True,
+            }
     else:
         # Si no hay ningún proceso con ID mayor que el mío
         # Me autoproclamo coordinador
@@ -312,7 +389,7 @@ def eleccionThread():
                 if ((8080 + port) != proceso.puerto) or (
                     direccion != proceso.direccion
                 ):
-                    print(str(proceso.id) + " -> " + direccion + ":" + str(8080 + port))
+                    # print(str(proceso.id) + " -> " + direccion + ":" + str(8080 + port))
                     requests.get(
                         "http://"
                         + direccion
@@ -322,11 +399,13 @@ def eleccionThread():
                         + str(proceso.id)
                     )
             except Exception as e:
-                print("No se ha podido conectar con " + direccion + ":" + str(port))
+                pass
+                # print("No se ha podido conectar con " + direccion + ":" + str(port))
 
 
 @api.route("/api/eleccion/")
 def eleccionCandidato():
+    global proceso
     eleccionTh = threading.Thread(target=eleccionThread).start()
     # Responder a una petición de elección
     return "200" if proceso.estado else "400"
@@ -334,6 +413,7 @@ def eleccionCandidato():
 
 @api.route("/api/coordinador/<int:id>")
 def coordinador(id):
+    global proceso
     #   si recibe mensaje coordinador(x)
     #       pi.coordinador ← x
     #       fin
@@ -350,19 +430,45 @@ def coordinador(id):
 
 @api.route("/api/arrancar/")
 def arrancar():
+    global proceso
+    print(
+        "##########################"
+        + str(proceso.id)
+        + " -> Arrancado ##########################"
+    )
     proceso.estado = True
     handler.notify()
     return "200"
 
 
+@api.route("/api/estado/")
+def estado():
+    global proceso
+    texto = "Estado: " + str(proceso.estado)
+    texto += "\nCoordinador: " + str(proceso.coordinador)
+    for key, value in proceso.eleccion.items():
+        if value == 1:
+            texto += "\nEstado: " + str(key)
+    return texto
+
+
 @api.route("/api/parar/")
 def parar():
+    global proceso
+    print(
+        "########################## "
+        + str(proceso.id)
+        + " -> Parado ##########################"
+    )
     proceso.estado = False
+    proceso.coordinador = None
+    proceso.eleccion = None
     return "200"
 
 
 @api.route("/api/computar/")
 def computar():
+    global proceso
     if not proceso.estado:
         return "400"
     segundos = randfloat(0.1, 0.3)
@@ -383,5 +489,5 @@ if __name__ == "__main__":
             host = "127.0.0.1"
             port = 8080
             id = generate_node_id()
-    # logging.info("HOST: " + host + "\nPORT: " + str(port) + "\nID: " + str(id))
+    logging.info("HOST: " + host + "\nPORT: " + str(port) + "\nID: " + str(id))
     main(host, port, id)
