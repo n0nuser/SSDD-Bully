@@ -73,7 +73,7 @@ def menu():
         for index, value in enumerate(endpoints):
             print(str(index + 1) + ".- " + str(value))
         print("====================\n")
-        print("IP seleccionada: " + str(ip) + ":" + str(port))
+        print("Proceso seleccionado: (" + str(ip) + ":" + str(port) + ")")
         opcion = int(input("Seleccione una opción: "))
         if opcion == 1:
             ip, port = changeAddress()
