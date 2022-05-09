@@ -11,31 +11,31 @@ def changeAddress():
 
 
 def idProceso(ip, port):
-    return requests.get("http://" + str(ip) + ":" + str(port) + "/api/id")
+    return requests.get("http://" + str(ip) + ":" + str(port) + "/api/id/")
 
 
 def eleccion(ip, port):
-    return requests.get("http://" + str(ip) + ":" + str(port) + "/api/eleccion")
+    return requests.get("http://" + str(ip) + ":" + str(port) + "/api/eleccion/")
 
 
 def coordinador(ip, port):
-    return requests.get("http://" + str(ip) + ":" + str(port) + "/api/coordinador")
+    return requests.get("http://" + str(ip) + ":" + str(port) + "/api/coordinador/")
 
 
 def arrancar(ip, port):
-    return requests.get("http://" + str(ip) + ":" + str(port) + "/api/arrancar")
+    return requests.get("http://" + str(ip) + ":" + str(port) + "/api/arrancar/")
 
 
 def parar(ip, port):
-    return requests.get("http://" + str(ip) + ":" + str(port) + "/api/parar")
+    return requests.get("http://" + str(ip) + ":" + str(port) + "/api/parar/")
 
 
 def computar(ip, port):
-    return requests.get("http://" + str(ip) + ":" + str(port) + "/api/computar")
+    return requests.get("http://" + str(ip) + ":" + str(port) + "/api/computar/")
 
 
 def estado(ip, port):
-    return requests.get("http://" + str(ip) + ":" + str(port) + "/api/estado")
+    return requests.get("http://" + str(ip) + ":" + str(port) + "/api/estado/")
 
 
 def exit():
