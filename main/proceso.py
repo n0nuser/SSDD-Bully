@@ -285,6 +285,11 @@ def eleccionThread():
                     + "/api/coordinador/"
                     + str(proceso.id)
                 )
+            proceso.eleccion = {
+                "acuerdo": True,
+                "eleccion_activa": False,
+                "eleccion_pasiva": False,
+            }
         else:
             logging.info("ELECCION (" + str(proceso.id) + "): elección pasiva")
             proceso.eleccion = {
@@ -310,6 +315,11 @@ def eleccionThread():
                         + "/api/coordinador/"
                         + str(proceso.id)
                     )
+        proceso.eleccion = {
+            "acuerdo": True,
+            "eleccion_activa": False,
+            "eleccion_pasiva": False,
+        }
 
 
 @api.route("/api/eleccion/")
@@ -324,6 +334,11 @@ def eleccionCandidato():
 def coordinador(id):
     global proceso
     proceso.coordinador = id
+    proceso.eleccion = {
+        "acuerdo": True,
+        "eleccion_activa": False,
+        "eleccion_pasiva": False,
+    }
     logging.info(str(proceso.id) + " <- Coordinador: " + str(proceso.coordinador))
     return "200"
 
@@ -342,9 +357,7 @@ def estado():
 @api.route("/api/arrancar/")
 def arrancar():
     global proceso
-    logging.critical("#" + str(proceso.id) + " -> Arrancando")
     handler.notify()
-    logging.critical("#" + str(proceso.id) + " -> Arrancado")
     if proceso.estado:
         return "400"
     logging.info(str(proceso.id) + " -> Arrancado")
