@@ -249,7 +249,7 @@ def eleccionThread():
     logging.debug("#" + str(proceso.id) + " -> idsDireccion: " + str(idsDireccion))
     idsMayores = [id for id in idsDireccion.keys() if int(id) > proceso.id]
     logging.debug("idsMayores [" + str(proceso.id) + "]: " + str(idsMayores))
-    if proceso.coordinador != proceso.id:
+    if proceso.coordinador != proceso.id: #SI FALLA ALGO BORRAR ESTA LINEA 
         if idsMayores:
             eleccion = []
             for id in idsMayores:
