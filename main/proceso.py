@@ -1,15 +1,14 @@
-import contextlib
-import itertools
-import sys
-import logging
-import requests
-import threading
-import socket
+from aux_functions import generate_node_id, read_config
 from flask import Flask
-from flask.logging import default_handler
 from random import uniform as randfloat
 from threading import Condition, Lock
-from aux_functions import generate_node_id, read_config
+import contextlib
+import itertools
+import logging
+import requests
+import sys
+import threading
+import socket
 
 api = Flask(__name__)
 flask_logger = logging.getLogger("werkzeug")
@@ -100,7 +99,7 @@ def nothing():  # Literally doing nothing
     pass
 
 
-def proceso_run(miPuertoFlask):  # sourcery skip: avoid-builtin-shadow
+def proceso_run():  # sourcery skip: avoid-builtin-shadow
     global proceso, idsDireccion, handler, direcciones
     # Este hace las peticiones a los demás procesos continuamente
     aux = 0
@@ -213,7 +212,7 @@ def pingProcesos():
                 idsDireccion[id] = [direccion, puerto]
 
 
-def main(host, port, id):
+def main(host, portFlask, id):
     global proceso, idsDireccion, handler, direcciones, process_number
     FICHERO = "config.json"
 
@@ -223,14 +222,14 @@ def main(host, port, id):
 
     idsDireccion = {}  # {id: [direccion, puerto]} -> {8080: ["192.168.1.15", 8080]}
 
-    proceso = Proceso(id, host, port)
+    proceso = Proceso(id, host, portFlask)
     handler = Handler()
 
-    proceso_inicio = threading.Thread(target=proceso_run, args=(port,)).start()
+    proceso_inicio = threading.Thread(target=proceso_run).start()
 
     try:
         # Este recibe las peticiones de los demás procesos
-        api.run(host=host, port=port)
+        api.run(host=host, port=portFlask)
     except Exception:
         logging.critical("Error en el servidor (" + str(host) + ":" + str(port) + ")")
         proceso_inicio.join()
@@ -393,14 +392,14 @@ def computar():
 ###############################################################################
 
 if __name__ == "__main__":
-    try:
-        host = sys.argv[1]
-        port = int(sys.argv[2])
-        id = int(sys.argv[3])
-    except IndexError:
-        if not host or not port or not id:
-            host = "127.0.0.1"
-            port = 8080
-            id = generate_node_id()
+    if len(sys.argv) != 2:
+        print("Usage: python3 main.py <port>")
+        sys.exit()
+    port = int(sys.argv[1])
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    s.connect(("8.8.8.8", 80))
+    host = s.getsockname()[0]
+    id = generate_node_id()
     logging.info("HOST: " + host + "PORT: " + str(port) + "ID: " + str(id))
     main(host, port, id)
+    
