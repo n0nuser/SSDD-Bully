@@ -1,11 +1,10 @@
 import os
 import json
-import time
 import logging
 from random import randint
 
 
-def read_config(FICHERO):
+def read_config(FICHERO):  # sourcery skip: avoid-builtin-shadow
     dir = os.path.dirname(__file__)
     abs_file_path = os.path.join(dir, FICHERO)
     try:
@@ -18,6 +17,9 @@ def read_config(FICHERO):
 
 
 def generate_node_id():
-    millis = int(round(time.time() * 1000))
-    node_id = millis + randint(800000000000, 900000000000)
-    return node_id
+    data = read_config("config.json")
+    min_id = data["min_id"]
+    max_id = data["max_id"]
+    # millis = int(round(time.time() * 1000))
+    # node_id = millis + randint(min_id, max_id)
+    return randint(min_id, max_id)
