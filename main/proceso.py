@@ -249,34 +249,63 @@ def eleccionThread():
     logging.debug("#" + str(proceso.id) + " -> idsDireccion: " + str(idsDireccion))
     idsMayores = [id for id in idsDireccion.keys() if int(id) > proceso.id]
     logging.debug("idsMayores [" + str(proceso.id) + "]: " + str(idsMayores))
-    if proceso.coordinador != proceso.id: #SI FALLA ALGO BORRAR ESTA LINEA 
-        if idsMayores:
-            eleccion = []
-            for id in idsMayores:
-                ip = idsDireccion[id][0]
-                port = idsDireccion[id][1]
-                # Pregunto a todos los demás si están en estado de espera
-                eleccion.append(
-                    requests.get(
-                        "http://" + ip + ":" + str(port) + "/api/eleccion/", timeout=1
-                    ).text
-                )
-                # Si alguno me responde un 200
-                # esperamos en el endpoint coordinador el id del nuevo coordinador
-                # si en un periodo de 1 segundo, no nos ha llegado ese mensaje, empezamos nuevas elecciones
+    if idsMayores:
+        eleccion = []
+        for id in idsMayores:
+            ip = idsDireccion[id][0]
+            port = idsDireccion[id][1]
+            # Pregunto a todos los demás si están en estado de espera
+            eleccion.append(
+                requests.get(
+                    "http://" + ip + ":" + str(port) + "/api/eleccion/", timeout=1
+                ).text
+            )
+            # Si alguno me responde un 200
+            # esperamos en el endpoint coordinador el id del nuevo coordinador
+            # si en un periodo de 1 segundo, no nos ha llegado ese mensaje, empezamos nuevas elecciones
 
-            # Si no existe un proceso con ID mayor que el mío ENCENDIDO que me de el OK
-            if "200" not in eleccion:
-                # Me autoproclamo coordinador
-                proceso.coordinador = proceso.id
-                logging.info(
-                    str(proceso.id) + " <- Coordinador: " + str(proceso.coordinador)
+        # Si no existe un proceso con ID mayor que el mío ENCENDIDO que me de el OK
+        if "200" not in eleccion:
+            # Me autoproclamo coordinador
+            proceso.coordinador = proceso.id
+            logging.info(
+                str(proceso.id) + " <- Coordinador: " + str(proceso.coordinador)
+            )
+            for direccion, port in itertools.product(
+                direcciones, range(process_number)
+            ):
+                puerto = 8080 + port
+                # Y se lo digo a los demás procesos
+                requests.get(
+                    "http://"
+                    + direccion
+                    + ":"
+                    + str(puerto)
+                    + "/api/coordinador/"
+                    + str(proceso.id)
                 )
-                for direccion, port in itertools.product(
-                    direcciones, range(process_number)
-                ):
-                    puerto = 8080 + port
-                    # Y se lo digo a los demás procesos
+            proceso.eleccion = {
+                "acuerdo": True,
+                "eleccion_activa": False,
+                "eleccion_pasiva": False,
+            }
+        else:
+            logging.info("ELECCION (" + str(proceso.id) + "): elección pasiva")
+            proceso.eleccion = {
+                "acuerdo": False,
+                "eleccion_activa": False,
+                "eleccion_pasiva": True,
+            }
+    else:
+        # Si no hay ningún proceso con ID mayor que el mío
+        # Me autoproclamo coordinador
+        proceso.coordinador = proceso.id
+        logging.info(str(proceso.id) + " <- Coordinador: " + str(proceso.coordinador))
+        for direccion, port in itertools.product(direcciones, range(process_number)):
+            # Y se lo digo a los demás procesos
+            with contextlib.suppress(Exception):
+                puerto = 8080 + port
+                if (puerto != proceso.puerto) or (direccion != proceso.direccion):
                     requests.get(
                         "http://"
                         + direccion
@@ -285,41 +314,11 @@ def eleccionThread():
                         + "/api/coordinador/"
                         + str(proceso.id)
                     )
-                proceso.eleccion = {
-                    "acuerdo": True,
-                    "eleccion_activa": False,
-                    "eleccion_pasiva": False,
-                }
-            else:
-                logging.info("ELECCION (" + str(proceso.id) + "): elección pasiva")
-                proceso.eleccion = {
-                    "acuerdo": False,
-                    "eleccion_activa": False,
-                    "eleccion_pasiva": True,
-                }
-        else:
-            # Si no hay ningún proceso con ID mayor que el mío
-            # Me autoproclamo coordinador
-            proceso.coordinador = proceso.id
-            logging.info(str(proceso.id) + " <- Coordinador: " + str(proceso.coordinador))
-            for direccion, port in itertools.product(direcciones, range(process_number)):
-                # Y se lo digo a los demás procesos
-                with contextlib.suppress(Exception):
-                    puerto = 8080 + port
-                    if (puerto != proceso.puerto) or (direccion != proceso.direccion):
-                        requests.get(
-                            "http://"
-                            + direccion
-                            + ":"
-                            + str(puerto)
-                            + "/api/coordinador/"
-                            + str(proceso.id)
-                        )
-            proceso.eleccion = {
-                "acuerdo": True,
-                "eleccion_activa": False,
-                "eleccion_pasiva": False,
-            }
+        proceso.eleccion = {
+            "acuerdo": True,
+            "eleccion_activa": False,
+            "eleccion_pasiva": False,
+        }
 
 
 @api.route("/api/eleccion/")
