@@ -281,8 +281,8 @@ testing = ["pathlib2", "unittest2", "jaraco.itertools", "func-timeout"]
 
 [metadata]
 lock-version = "1.1"
-python-versions = ">=3.5.3, <3.6"
-content-hash = "d0386fc53abeb138777a8cdf41a24843d416f015b4177ec0935b770dcfcc90ed"
+python-versions = ">=3.5.3, <4"
+content-hash = "64d5e04c3c829f9ac847a47e4b03f280d5885c034841d5e2ebbf742c21e585dc"
 
 [metadata.files]
 atomicwrites = [

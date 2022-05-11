@@ -3,5 +3,5 @@ echo $NUM_PROCESOS
 for ID in `seq 0 $(($NUM_PROCESOS-1))`;
 do
     PORT=$((8080+$ID))
-    poetry run python3.5 proceso.py $PORT &
+    poetry run python3 proceso.py $PORT &
 done
