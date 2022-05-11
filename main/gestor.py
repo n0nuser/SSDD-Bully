@@ -1,7 +1,7 @@
 #!/usr/bin/python3.5
-import sys
 import os
 import requests
+import sys
 
 
 def changeAddress():
@@ -36,11 +36,6 @@ def computar(ip, port):
 
 def estado(ip, port):
     return requests.get("http://" + str(ip) + ":" + str(port) + "/api/estado/")
-
-
-def exit():
-    print("Saliendo...")
-    sys.exit()
 
 
 def menu():
@@ -80,9 +75,13 @@ def menu():
         elif len(endpoints) == opcion:
             if os.geteuid() != 0:
                 os.system("sudo pkill python3.5")
-            exit()
+            print("Saliendo...")
+            sys.exit()
         else:
-            print("\n" + funciones[opcion - 1](ip, port).text)
+            try:
+                print("\n" + funciones[opcion - 1](ip, port).text)
+            except Exception:
+                print("\nLa opción seleccionada no es válida.")
 
 
 if __name__ == "__main__":
