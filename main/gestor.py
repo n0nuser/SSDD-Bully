@@ -14,24 +14,12 @@ def idProceso(ip, port):
     return requests.get("http://" + str(ip) + ":" + str(port) + "/api/id/")
 
 
-def eleccion(ip, port):
-    return requests.get("http://" + str(ip) + ":" + str(port) + "/api/eleccion/")
-
-
-def coordinador(ip, port):
-    return requests.get("http://" + str(ip) + ":" + str(port) + "/api/coordinador/")
-
-
 def arrancar(ip, port):
     return requests.get("http://" + str(ip) + ":" + str(port) + "/api/arrancar/")
 
 
 def parar(ip, port):
     return requests.get("http://" + str(ip) + ":" + str(port) + "/api/parar/")
-
-
-def computar(ip, port):
-    return requests.get("http://" + str(ip) + ":" + str(port) + "/api/computar/")
 
 
 def estado(ip, port):
@@ -44,22 +32,16 @@ def menu():
     endpoints = [
         "Cambiar proceso",
         "ID",
-        "Eleccion",
-        "Coordinador",
         "Arrancar",
         "Parar",
-        "Computar",
         "Consultar Estado",
         "Salir",
     ]
     funciones = [
         changeAddress,
         idProceso,
-        eleccion,
-        coordinador,
         arrancar,
         parar,
-        computar,
         estado,
         exit,
     ]
