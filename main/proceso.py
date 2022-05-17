@@ -223,13 +223,8 @@ def main(host, portFlask, id):
 
 
 ###############################################################################
-# ENDPOINTS
+# MÉTODOS AUXILIARES DE LOS ENDPOINT
 ###############################################################################
-@api.route("/api/id/")
-def apiId():
-    """Devuelve su ID si está activo"""
-    global proceso
-    return str(proceso.id) if proceso.estado else ""
 
 
 def autoproclamacion_coordinador():
@@ -245,6 +240,7 @@ def autoproclamacion_coordinador():
             puerto = 8080 + port
             if (puerto != proceso.puerto) or (direccion != proceso.direccion):
                 requests.get("http://" + direccion + ":" + str(puerto) + "/api/coordinador/" + str(proceso.id))
+
     proceso.eleccion = {
         "acuerdo": True,
         "eleccion_activa": False,
@@ -293,6 +289,16 @@ def eleccionThread():
         pass
 
 
+###############################################################################
+# ENDPOINTS
+###############################################################################
+@api.route("/api/id/")
+def apiId():
+    """Devuelve su ID si está activo"""
+    global proceso
+    return str(proceso.id) if proceso.estado else ""
+
+
 @api.route("/api/eleccion/")
 def eleccionCandidato():
     """
@@ -324,11 +330,12 @@ def coordinador(id):
 def estado():
     """Devuelve información del estado del proceso."""
     global proceso
-    texto = "Estado: " + str(proceso.estado)
+    texto = "ID: " + str(proceso.id)
+    texto += "\nEncendido (estado): " + str(proceso.estado)
     texto += "\nCoordinador: " + str(proceso.coordinador)
     for key, value in proceso.eleccion.items():
         if value == 1:
-            texto += "\nEstado: " + str(key)
+            texto += "\nEstado elección: " + str(key)
     return texto
 
 
