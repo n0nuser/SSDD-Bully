@@ -45,6 +45,7 @@ def menu():
         estado,
         exit,
     ]
+
     while True:
         print("\n\nGESTOR DE ELECCIONES\n====================")
         for index, value in enumerate(endpoints):
