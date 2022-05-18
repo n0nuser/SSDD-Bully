@@ -226,28 +226,6 @@ def main(host, portFlask, id):
 # MÉTODOS AUXILIARES DE LOS ENDPOINT
 ###############################################################################
 
-
-def autoproclamacion_coordinador():
-    global proceso, direcciones, process_number
-    # Me autoproclamo coordinador
-    proceso.coordinador = proceso.id
-
-    logging.info(str(proceso.id) + " <- Coordinador: " + str(proceso.coordinador))
-    # Para cada una de las direcciones y puertos, hago una petición para obligar el coordinador a los procesos
-    for direccion, port in itertools.product(direcciones, range(process_number)):
-        # Y se lo digo a los demás procesos
-        with contextlib.suppress(Exception):
-            puerto = 8080 + port
-            if (puerto != proceso.puerto) or (direccion != proceso.direccion):
-                requests.get("http://" + direccion + ":" + str(puerto) + "/api/coordinador/" + str(proceso.id))
-
-    proceso.eleccion = {
-        "acuerdo": True,
-        "eleccion_activa": False,
-        "eleccion_pasiva": False,
-    }
-
-
 def eleccionThread():
     """
     Gestiona las peticiones de elecciones.
@@ -273,7 +251,29 @@ def eleccionThread():
 
             # Si no existe un proceso con ID mayor que el mío ENCENDIDO que me de el OK
             if "200" not in eleccion:
-                autoproclamacion_coordinador()
+                # Me autoproclamo coordinador
+                proceso.coordinador = proceso.id
+                logging.info(
+                    str(proceso.id) + " <- Coordinador: " + str(proceso.coordinador)
+                )
+                for direccion, port in itertools.product(
+                    direcciones, range(process_number)
+                ):
+                    puerto = 8080 + port
+                    # Y se lo digo a los demás procesos
+                    requests.get(
+                        "http://"
+                        + direccion
+                        + ":"
+                        + str(puerto)
+                        + "/api/coordinador/"
+                        + str(proceso.id)
+                    )
+                proceso.eleccion = {
+                    "acuerdo": True,
+                    "eleccion_activa": False,
+                    "eleccion_pasiva": False,
+                }
             else:
                 logging.info("ELECCION (" + str(proceso.id) + "): elección pasiva")
                 # Si existe, la eleccion es pasiva
@@ -284,7 +284,27 @@ def eleccionThread():
                 }
         else:
             # Si no hay ningún proceso con ID mayor que el mío
-            autoproclamacion_coordinador()
+            # Me autoproclamo coordinador
+            proceso.coordinador = proceso.id
+            logging.info(str(proceso.id) + " <- Coordinador: " + str(proceso.coordinador))
+            for direccion, port in itertools.product(direcciones, range(process_number)):
+                # Y se lo digo a los demás procesos
+                with contextlib.suppress(Exception):
+                    puerto = 8080 + port
+                    if (puerto != proceso.puerto) or (direccion != proceso.direccion):
+                        requests.get(
+                            "http://"
+                            + direccion
+                            + ":"
+                            + str(puerto)
+                            + "/api/coordinador/"
+                            + str(proceso.id)
+                        )
+            proceso.eleccion = {
+                "acuerdo": True,
+                "eleccion_activa": False,
+                "eleccion_pasiva": False,
+            }
     else:
         pass
 
